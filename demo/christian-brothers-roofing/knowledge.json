@@ -1,0 +1,104 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Christian Brothers Roofing. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2.",
+  "accent_color": "#8a5a2b",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (972) 606-0504 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Christian Brothers Roofing",
+  "client_id": "christian-brothers-roofing",
+  "demo_chips": ["How much does a new roof cost?", "How do I get started?", "What are your hours?"],
+  "contact": {
+    "email": "office@christianbrothersroofing.com",
+    "phone": "(972) 606-0504"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Christian Brothers Roofing at (972) 606-0504 or office@christianbrothersroofing.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Do you help with insurance claims?",
+      "a": "Yes - we work directly with all major insurance companies for storm damage claims, including State Farm, Allstate, USAA, Farmers, Liberty Mutual and Travelers. In most cases homeowners only pay their deductible.",
+      "keywords": [
+        "insurance",
+        "claim",
+        "storm damage",
+        "deductible"
+      ]
+    },
+    {
+      "q": "How long does a roof replacement take?",
+      "a": "Most residential roof replacements in Dallas-Fort Worth are completed in 1-2 days - an average 2,000 square foot home typically takes about 1 day.",
+      "keywords": [
+        "how long",
+        "timeline",
+        "days",
+        "duration"
+      ]
+    },
+    {
+      "q": "Do you offer a military or first responder discount?",
+      "a": "Yes - we offer a 5% Heroes Discount for active duty military, veterans, police, firefighters and EMTs, teachers, and healthcare workers.",
+      "keywords": [
+        "heroes",
+        "discount",
+        "military",
+        "veteran",
+        "first responder"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Christian Brothers Roofing assistant - happy to help with roof replacement, repairs, insurance claims, or pricing questions.",
+  "hours": "Mon-Fri: 7:00 AM - 6:00 PM",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Christian Brothers Roofing - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Christian Brothers Roofing! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Christian Brothers Roofing team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Christian Brothers Roofing team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (972) 606-0504.",
+  "location": "Addison, Texas - serving 70+ Dallas-Fort Worth cities including Dallas, Fort Worth, Plano, McKinney, Frisco, Allen, Arlington, Irving and Denton",
+  "pricing": {
+    "summary": "Roof replacement in Dallas-Fort Worth typically runs $10,000-$30,000 for most residential homes - a typical 2,000 square foot home usually lands between $14,000 and $20,000. Maintenance plans start at $299 a year, financing is available through Acorn Finance with payments from as low as about $25 a month, and Class 4 impact-resistant upgrades normally add $1,500-$3,000 (free through December 31, 2026). You'll always get a clear written estimate first."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Roof replacement",
+      "description": "Full roof replacement with a clear written estimate up front."
+    },
+    {
+      "name": "Roof repair",
+      "description": "Repairs for leaks and storm damage."
+    },
+    {
+      "name": "Windows & doors",
+      "description": "Window and door replacement."
+    },
+    {
+      "name": "Gutters",
+      "description": "Gutter installation and replacement."
+    },
+    {
+      "name": "Siding",
+      "description": "Siding including James Hardie siding."
+    },
+    {
+      "name": "Insulation & ventilation",
+      "description": "Attic insulation and ventilation."
+    },
+    {
+      "name": "Outdoor living",
+      "description": "Outdoor living projects."
+    },
+    {
+      "name": "Commercial roofing",
+      "description": "Roofing for commercial properties and new construction."
+    }
+  ],
+  "tagline": "Roofing & exteriors for Dallas-Fort Worth since 1983",
+  "website": "https://www.christianbrothersroofing.com/"
+}

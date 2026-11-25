@@ -1,0 +1,100 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Summit Roofing. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2 reserves.",
+  "accent_color": "#1f4e79",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (512) 828-7663 to schedule your free inspection, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Summit Roofing",
+  "client_id": "summit-roofing",
+  "demo_chips": ["How much does a roof replacement cost?", "How do I book a free inspection?", "What are your hours?"],
+  "contact": {
+    "email": "office@summitrooftexas.com",
+    "phone": "(512) 828-7663"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Summit Roofing at (512) 828-7663 or office@summitrooftexas.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Do you help with insurance claims?",
+      "a": "Yes. We document storm damage properly and guide homeowners through the claims process from start to finish - about 95% of our work involves insurance claims in some form, and your out-of-pocket cost is typically limited to your deductible.",
+      "keywords": [
+        "insurance",
+        "claim",
+        "claims process"
+      ]
+    },
+    {
+      "q": "How long does a roof replacement take?",
+      "a": "Most residential roof replacements can be completed in one day.",
+      "keywords": [
+        "how long",
+        "replacement take",
+        "duration"
+      ]
+    },
+    {
+      "q": "Is the online estimate the final price?",
+      "a": "No. The online estimate is a helpful starting point that gives you a reliable pricing range. Final pricing is confirmed after an on-site inspection of the actual roof measurements, pitch, material selection, decking condition and project details.",
+      "keywords": [
+        "online estimate",
+        "final price",
+        "estimate accurate"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Summit Roofing assistant - happy to help with roof inspection, repair, or replacement questions.",
+  "hours": "We're available 24/7 - call (512) 828-7663 any time, day or night.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Summit Roofing - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Summit Roofing! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Summit Roofing team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Summit Roofing team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (512) 828-7663.",
+  "location": "Round Rock, Texas - serving Austin and Central Texas",
+  "pricing": {
+    "summary": "Roof inspections are always free, and our site offers an instant online estimate that gives you a price range for planning - the final price is confirmed after an in-person inspection, because it depends on roof size, pitch, material selection and decking condition. Metal roofing typically runs $12-$25 per square foot, and TPO roofing $5-$12 per square foot. If your job goes through insurance, your out-of-pocket cost is typically limited to your deductible, and financing is available for qualified homeowners."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Free roof inspections",
+      "description": "Thorough interior and exterior inspections for damage - not just the roof - with photos and recommendations."
+    },
+    {
+      "name": "Roof repairs",
+      "description": "Missing shingles, leaks and structural roof damage repaired to get your roof watertight."
+    },
+    {
+      "name": "Roof replacements",
+      "description": "Full roofing systems with a transferable lifetime workmanship warranty - most residential roofs completed in one day."
+    },
+    {
+      "name": "Storm & hail damage documentation",
+      "description": "Hail and storm damage documented for your claim; about 95% of our work involves insurance claims."
+    },
+    {
+      "name": "Insurance claim guidance",
+      "description": "We streamline the claims process from A-Z and work within carrier guidelines, submitting supplements when necessary."
+    },
+    {
+      "name": "Commercial & TPO roofing",
+      "description": "Commercial roofing services including TPO roofing systems."
+    },
+    {
+      "name": "Metal roofing",
+      "description": "Residential and commercial metal roofing, standing seam and screw-down panels."
+    },
+    {
+      "name": "Free roofing system tune-ups",
+      "description": "Full inspection, minor repairs, sealed nailheads and pipe flashing - plus free annual inspections for life on our projects."
+    }
+  ],
+  "tagline": "Roofing contractor in Round Rock & Central Texas",
+  "website": "https://www.summitrooftexas.com/"
+}

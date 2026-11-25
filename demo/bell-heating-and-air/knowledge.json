@@ -1,0 +1,108 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Bell Heating and Air Conditioning LLC. Facts harvested from the business's own website on 2026-10-26. Preview/demo use only - Vellops Demo Drop Batch 1.",
+  "accent_color": "#1d4ed8",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (423) 802-8837 to schedule your free estimate, or leave your details here and we'll follow up.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Bell Heating and Air Conditioning LLC",
+  "client_id": "bell-heating-and-air",
+  "demo_chips": ["How much is an HVAC tune-up?", "How do I get a free estimate?", "What are your hours?"],
+  "contact": {
+    "email": "joe@callbellheatingandair.com",
+    "phone": "(423) 802-8837"
+  },
+  "fallback": "Great question - I don't want to guess on that one. Call us at (423) 802-8837 or email joe@callbellheatingandair.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "How often should I service my system?",
+      "a": "Twice per year. Seasonal maintenance reduces unexpected breakdowns, improves energy efficiency, and helps extend the lifespan of your system.",
+      "keywords": [
+        "how often",
+        "twice",
+        "maintenance",
+        "service my system"
+      ]
+    },
+    {
+      "q": "Should I repair or replace my system?",
+      "a": "We look at system age, frequency of breakdowns, repair cost, and energy efficiency. If a unit is older with repeated issues, replacement may offer better reliability; if it's newer with a minor issue, repair is usually the practical choice. We'll give you a clear recommendation without pressure.",
+      "keywords": [
+        "repair or replace",
+        "replace my",
+        "old unit"
+      ]
+    },
+    {
+      "q": "Who runs Bell Heating and Air?",
+      "a": "Bell is family-owned and has served the Greater Chattanooga area since 2015 - and you deal directly with the owner, Joe Bell.",
+      "keywords": [
+        "joe",
+        "owner",
+        "family",
+        "since"
+      ]
+    },
+    {
+      "q": "Do you offer emergency service?",
+      "a": "Yes - 24/7 emergency heating and cooling, and we typically address emergencies within 2-4 hours. All inquiries get a reply the same business day.",
+      "keywords": [
+        "emergency",
+        "24/7",
+        "urgent",
+        "response"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Bell Heating and Air assistant - ask me about AC, heating, our $85 tune-up, or 24/7 emergency service.",
+  "hours": "Office hours: Monday-Friday, 8:00 AM - 5:00 PM - and 24/7 emergency HVAC service, with emergencies typically addressed within 2-4 hours. Call (423) 802-8837.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Bell Heating and Air Conditioning LLC - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Bell Heating and Air Conditioning LLC! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Bell Heating and Air Conditioning LLC team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Bell Heating and Air Conditioning LLC team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (423) 802-8837.",
+  "location": "Chattanooga, Tennessee - serving Hixson, Chattanooga, Red Bank, Harrison, Soddy Daisy, Lakesite, East Ridge, East Brainerd, Cleveland and Dunlap",
+  "pricing": {
+    "summary": "Current specials on our website: an $85 HVAC tune-up, a FREE AC installation estimate, and 10% off emergency repairs. Estimates are free within 24 hours."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "AC services",
+      "description": "AC repair, AC installation & replacement, AC maintenance & tune-ups, heat pumps, and ductless/mini-split systems."
+    },
+    {
+      "name": "Heating services",
+      "description": "Furnace repair, furnace installation & replacement, heating maintenance & tune-ups, and emergency heating service."
+    },
+    {
+      "name": "Ductwork & ventilation",
+      "description": "Custom duct installation, duct repair, and HVAC zoning."
+    },
+    {
+      "name": "Indoor air quality",
+      "description": "Air purifiers, humidifiers & dehumidifiers, and duct cleaning & sealing."
+    },
+    {
+      "name": "Smart thermostats",
+      "description": "Smart thermostat installation and control services."
+    },
+    {
+      "name": "Commercial HVAC",
+      "description": "Commercial AC and commercial heating for businesses."
+    },
+    {
+      "name": "24/7 emergency HVAC",
+      "description": "Emergency heating and cooling, typically addressed within 2-4 hours."
+    }
+  ],
+  "tagline": "Heating & air for Hixson and the greater Chattanooga area",
+  "website": "https://www.callbellheatingandair.com/"
+}

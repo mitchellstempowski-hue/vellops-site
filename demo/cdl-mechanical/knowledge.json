@@ -1,0 +1,116 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for CDL Mechanical. Facts harvested from the business's own website (cdlmechanical.com homepage, read in full 2026-11-25). Preview/demo use only - Vellops Demo Drop for CDL Mechanical (hiring-signal prospect - HVAC Customer Service Representative posting Nov 15, 2026).",
+  "accent_color": "#0b6e99",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Call (623) 249-9028 to schedule service, or leave your details here and we'll follow up by email.",
+    "link": null
+  },
+  "business_name": "CDL Mechanical",
+  "client_id": "cdl-mechanical",
+  "contact": {
+    "phone": "(623) 249-9028"
+  },
+  "demo_chips": [
+    "Can I book an appointment?",
+    "Do you service heat pumps?",
+    "What are your hours?"
+  ],
+  "fallback": "Great question - I don't want to guess on that one. You can reach CDL Mechanical at (623) 249-9028, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Do you service heat pumps?",
+      "a": "Yes - our technicians are well-versed in a variety of heating and cooling systems, including heat pumps, furnaces, and central air conditioning units.",
+      "keywords": [
+        "heat pump",
+        "heat pumps",
+        "furnace",
+        "furnaces",
+        "heating"
+      ]
+    },
+    {
+      "q": "How long have you been in business?",
+      "a": "CDL Mechanical has been serving Glendale since 2016. We're a family-owned and operated business - owner Josh Bartlett and the team treat customers like extended family.",
+      "keywords": [
+        "how long",
+        "since",
+        "experience",
+        "family owned",
+        "owner"
+      ]
+    },
+    {
+      "q": "Do you offer a maintenance plan?",
+      "a": "Yes - our maintenance program keeps your HVAC system running at optimal performance and energy efficiency year-round. Ask about the service plan when you book and we'll get you set up.",
+      "keywords": [
+        "maintenance",
+        "service plan",
+        "maintenance program",
+        "tune-up",
+        "tune up"
+      ]
+    },
+    {
+      "q": "My AC stopped working - can you help?",
+      "a": "Yes - AC repair is what we do most. Our technicians can diagnose and repair your existing system, or talk through a new installation if it's time. Call (623) 249-9028 or leave your details here and we'll follow up.",
+      "keywords": [
+        "ac repair",
+        "air conditioner",
+        "not cooling",
+        "ac broke",
+        "repair"
+      ]
+    },
+    {
+      "q": "What areas do you serve?",
+      "a": "We serve Glendale and the surrounding areas, from our office in El Mirage.",
+      "keywords": [
+        "service area",
+        "areas",
+        "serve",
+        "glendale",
+        "el mirage",
+        "surrounding"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the CDL Mechanical assistant - happy to help with AC repair, installation, heating, or booking a service visit.",
+  "handoff_ask": "Of course - happy to pass this to the team at CDL Mechanical! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the CDL Mechanical team with your email - they'll email you shortly.",
+  "handoff_mode": "owner_text",
+  "hours": "7 days a week: 7:00 AM - 9:00 PM",
+  "identity_reply": "I'm the AI assistant for CDL Mechanical - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the CDL Mechanical team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (623) 249-9028.",
+  "location": "Glendale, Arizona - serving Glendale and the surrounding areas (office: 12545 W Butler Dr, Building B, El Mirage, AZ 85335)",
+  "pricing": {
+    "summary": "Every home and system is different, so CDL Mechanical quotes each job individually - there's no published price list. Call (623) 249-9028 or leave your details here and we'll follow up with honest pricing for your job."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What areas do you serve?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "AC Installation",
+      "description": "New air conditioning installation to keep your home cool and comfortable through the desert summer."
+    },
+    {
+      "name": "AC Repair & Service",
+      "description": "Repairs and servicing for central air conditioning units - lasting solutions, not quick patches."
+    },
+    {
+      "name": "Heating Services",
+      "description": "Furnace and heat pump service and repair to keep you warm and cozy through the desert winter."
+    },
+    {
+      "name": "Maintenance Plans",
+      "description": "Our maintenance program keeps your system running efficiently and helps prevent breakdowns."
+    }
+  ],
+  "tagline": "Reliability and quality, from our family to yours",
+  "website": "https://www.cdlmechanical.com/"
+}

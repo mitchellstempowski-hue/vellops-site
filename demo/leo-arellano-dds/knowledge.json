@@ -1,0 +1,152 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Leo Arellano DDS PC. Facts harvested from the business's own website (drleoarellano.com homepage, read in full 2026-11-25; hours via the hiring-signal list row, published Mon-Thu only). Preview/demo use only - Vellops Demo Drop for Leo Arellano DDS (hiring-signal prospect - Front Office Receptionist posting Nov 20, 2026).",
+  "accent_color": "#14606e",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Call 415-752-8311 to request an appointment, or leave your details here and we'll follow up by email.",
+    "link": null
+  },
+  "business_name": "Leo Arellano DDS PC",
+  "client_id": "leo-arellano-dds",
+  "contact": {
+    "phone": "415-752-8311"
+  },
+  "demo_chips": [
+    "Can I book an appointment?",
+    "Do you treat gum recession?",
+    "What are your hours?"
+  ],
+  "fallback": "Great question - I don't want to guess on that one. You can reach Leo Arellano DDS at 415-752-8311, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Do you accept dental insurance?",
+      "a": "Our office staff has years of experience helping patients get the greatest benefit from their dental insurance and set up workable payment options. Call 415-752-8311 and we'll be happy to help you check your coverage.",
+      "keywords": [
+        "insurance",
+        "payment",
+        "financing",
+        "coverage",
+        "pay"
+      ]
+    },
+    {
+      "q": "Do you place dental implants?",
+      "a": "Yes - dental implants are one of Dr. Arellano's specialties, from a single tooth replaced with an implant and new crown to more complete restorations.",
+      "keywords": [
+        "implant",
+        "implants",
+        "missing tooth",
+        "tooth replacement"
+      ]
+    },
+    {
+      "q": "What is the Pinhole Surgical Technique?",
+      "a": "The Pinhole Surgical Technique is a modern treatment for gum recession that Dr. Arellano offers here in San Francisco - a modern alternative approach to traditional gum grafting.",
+      "keywords": [
+        "pinhole",
+        "gum recession",
+        "receding gums",
+        "gum grafting",
+        "gums"
+      ]
+    },
+    {
+      "q": "Do you offer Invisalign?",
+      "a": "Yes - Invisalign clear aligners are part of our cosmetic dentistry services, along with teeth whitening, veneers, dental crowns, and bridges.",
+      "keywords": [
+        "invisalign",
+        "clear aligners",
+        "straighten",
+        "braces"
+      ]
+    },
+    {
+      "q": "How long has Dr. Arellano been in practice?",
+      "a": "Dr. Arellano has been serving general and cosmetic dentistry patients in San Francisco for more than 34 years.",
+      "keywords": [
+        "how long",
+        "experience",
+        "years",
+        "established",
+        "since"
+      ]
+    },
+    {
+      "q": "Can you help with TMJ or jaw pain?",
+      "a": "Yes - TMJ/TMD diagnosis and treatment is one of the practice's specialties. Call 415-752-8311 to schedule a consultation with Dr. Arellano.",
+      "keywords": [
+        "tmj",
+        "tmd",
+        "jaw pain",
+        "jaw"
+      ]
+    },
+    {
+      "q": "Do you treat snoring and sleep apnea?",
+      "a": "Yes - Dr. Arellano is a snoring and sleep apnea specialist, and treatment for both is part of the practice.",
+      "keywords": [
+        "sleep apnea",
+        "snoring",
+        "apnea"
+      ]
+    },
+    {
+      "q": "What areas do you serve?",
+      "a": "Our office is at 3030 Geary Blvd in San Francisco's Inner Richmond, and we welcome patients from across San Francisco and nearby Daly City.",
+      "keywords": [
+        "service area",
+        "areas",
+        "serve",
+        "san francisco",
+        "daly city",
+        "richmond"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Leo Arellano DDS assistant - happy to help with appointments, implants, Invisalign, gum recession treatment, or any question about your smile.",
+  "handoff_ask": "Of course - happy to pass this to the team at Leo Arellano DDS! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Leo Arellano DDS team with your email - they'll email you shortly.",
+  "handoff_mode": "owner_text",
+  "hours": "Monday - Wednesday: 8:00 AM - 5:00 PM; Thursday: 8:00 AM - 4:00 PM; Friday - Sunday: Closed",
+  "identity_reply": "I'm the AI assistant for Leo Arellano DDS PC - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Leo Arellano DDS team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at 415-752-8311.",
+  "location": "3030 Geary Blvd, San Francisco, CA 94118 (Inner Richmond)",
+  "pricing": {
+    "summary": "Every smile is different, so treatment is quoted as part of your individual treatment plan - the office doesn't publish a price list. Call 415-752-8311 to request an appointment, and our staff can help you make the most of your insurance and set up workable payment options."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "General Dentistry",
+      "description": "Exams, cleanings, and everyday dental care, including gum disease treatment to protect your long-term oral health."
+    },
+    {
+      "name": "Cosmetic Dentistry",
+      "description": "Invisalign, teeth whitening, veneers, dental crowns, and bridges - planned around the smile you want."
+    },
+    {
+      "name": "Dental Implants",
+      "description": "Permanent, natural-looking replacements for missing teeth, from a single implant and crown to full restorations."
+    },
+    {
+      "name": "Pinhole Surgical Technique",
+      "description": "Dr. Arellano's modern treatment for gum recession, offered right here in San Francisco."
+    },
+    {
+      "name": "TMJ/TMD Treatment",
+      "description": "Diagnosis and treatment for jaw pain and temporomandibular joint disorders."
+    },
+    {
+      "name": "Snoring & Sleep Apnea",
+      "description": "Treatment for snoring and sleep apnea from a dentist who specializes in it."
+    }
+  ],
+  "tagline": "General, cosmetic & implant dentistry in San Francisco",
+  "website": "https://www.drleoarellano.com/"
+}

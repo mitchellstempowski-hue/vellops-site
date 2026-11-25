@@ -1,0 +1,104 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Cro-Mech Services. Facts harvested from the business's own website (cro-mechservices.com) on 2026-10-29. Preview/demo use only - Vellops Demo Drop.",
+  "accent_color": "#1f4e79",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Call (417) 340-8435 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null
+  },
+  "business_name": "Cro-Mech Services",
+  "client_id": "cro-mech-services",
+  "contact": {
+    "email": "cromechservices@gmail.com",
+    "phone": "(417) 340-8435"
+  },
+  "demo_chips": [
+    "Do you service walk-in coolers and freezers?",
+    "Are you available for emergencies?",
+    "What are your hours?"
+  ],
+  "fallback": "Great question - I don't want to guess on that one. You can reach Cro-Mech Services at (417) 340-8435 or cromechservices@gmail.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "a": "Yes. Cro-Mech Services offers 24/7 emergency service for HVAC, plumbing and refrigeration - call (417) 340-8435 anytime, day or night.",
+      "keywords": [
+        "emergency",
+        "24/7",
+        "after hours",
+        "urgent",
+        "midnight"
+      ],
+      "q": "Are you available for emergencies?"
+    },
+    {
+      "a": "Yes. Cro-Mech Services is licensed and insured, with expert technicians serving both commercial and residential customers.",
+      "keywords": [
+        "licensed",
+        "insured",
+        "license",
+        "insurance"
+      ],
+      "q": "Are you licensed and insured?"
+    },
+    {
+      "a": "Yes. Commercial refrigeration is a Cro-Mech specialty - walk-in coolers and freezers are serviced and kept operating at peak efficiency.",
+      "keywords": [
+        "walk-in",
+        "cooler",
+        "freezer",
+        "commercial refrigeration",
+        "refrigeration"
+      ],
+      "q": "Do you work on commercial refrigeration?"
+    },
+    {
+      "a": "Cro-Mech is known for fast response times, and service inquiries sent through the website get a response within 24 hours. For anything urgent, call (417) 340-8435 - emergency service is available 24/7.",
+      "keywords": [
+        "respond",
+        "response time",
+        "get back",
+        "how fast",
+        "quote"
+      ],
+      "q": "How quickly will you respond to a service request?"
+    }
+  ],
+  "greeting": "Hi there! I'm the Cro-Mech Services assistant - happy to help with HVAC, plumbing, or refrigeration questions.",
+  "handoff_ask": "Of course - happy to pass this to the team at Cro-Mech Services! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Cro-Mech Services team with your email - they'll email you shortly.",
+  "handoff_mode": "owner_text",
+  "hours": "We're on call 24/7 for emergency service - call (417) 340-8435 anytime, day or night.",
+  "identity_reply": "I'm the AI assistant for Cro-Mech Services - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Cro-Mech Services team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (417) 340-8435.",
+  "location": "Springfield, Missouri - serving Springfield and the surrounding areas",
+  "pricing": {
+    "summary": "Cro-Mech Services doesn't publish set prices online - each job is quoted based on the work needed. Call (417) 340-8435 or send a service inquiry through their website and the team will get back to you with a quote; website inquiries get a response within 24 hours."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "description": "Expert installation, repair, and maintenance for heating and cooling systems to keep your environment comfortable year-round.",
+      "name": "HVAC services"
+    },
+    {
+      "description": "Professional plumbing solutions from emergency repairs to full-scale installations for commercial and residential needs.",
+      "name": "Plumbing"
+    },
+    {
+      "description": "Specialized commercial refrigeration services ensuring your walk-in coolers and freezers operate at peak efficiency.",
+      "name": "Refrigeration"
+    },
+    {
+      "description": "24/7 emergency service for HVAC, plumbing, and refrigeration - call (417) 340-8435 anytime.",
+      "name": "Emergency service"
+    }
+  ],
+  "tagline": "HVAC, plumbing & refrigeration in Springfield, MO",
+  "website": "https://cro-mechservices.com/"
+}

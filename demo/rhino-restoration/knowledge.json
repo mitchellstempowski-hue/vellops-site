@@ -1,0 +1,99 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Rhino Restoration of Georgia. Facts harvested from the business's own website on 2026-10-26. Preview/demo use only - Vellops Demo Drop Batch 1.",
+  "accent_color": "#44403c",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (678) 720-3565 or start with the instant measurement on our website - or leave your details here and we'll follow up.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Rhino Restoration of Georgia",
+  "client_id": "rhino-restoration",
+  "demo_chips": ["How much does a roof replacement cost?", "How do I get an instant roof measurement?", "What are your hours?"],
+  "contact": {
+    "email": "info@rhino-roofs.com",
+    "phone": "(678) 720-3565"
+  },
+  "fallback": "Great question - I don't want to guess on that one. Call us at (678) 720-3565 or email info@rhino-roofs.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "What does the free inspection include?",
+      "a": "A free 21-point inspection takes about 45 minutes - we climb on the roof, check the attic, photograph everything, and you get a folder of photos and a written report, whether you hire us or not.",
+      "keywords": [
+        "inspection include",
+        "21-point",
+        "21 point",
+        "free inspection"
+      ]
+    },
+    {
+      "q": "What guarantee do you offer?",
+      "a": "Every job is backed by our $30,000 workmanship guarantee, in writing, plus the manufacturer warranty. We're local and around to honor it.",
+      "keywords": [
+        "guarantee",
+        "warranty",
+        "$30,000",
+        "workmanship"
+      ]
+    },
+    {
+      "q": "How does your process work?",
+      "a": "Four steps: (1) free inspection with photos, (2) an honest written quote with line-item pricing and materials specified, (3) owner-led work from day one with the site cleaned every day, (4) warranty in writing - manufacturer warranty plus our $30,000 workmanship guarantee.",
+      "keywords": [
+        "process",
+        "how it works",
+        "steps"
+      ]
+    },
+    {
+      "q": "Do you offer financing?",
+      "a": "Yes - 0% financing is available.",
+      "keywords": [
+        "financing",
+        "0%",
+        "payments"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Rhino Restoration assistant - ask me about roofing, gutters, siding, painting, or a free inspection.",
+  "hours": "We're open 24/7 - call (678) 720-3565 anytime. Emergency tarp service available.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Rhino Restoration of Georgia - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Rhino Restoration of Georgia! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Rhino Restoration of Georgia team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Rhino Restoration of Georgia team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (678) 720-3565.",
+  "location": "Marietta, Georgia - 4016 Canton Rd - serving Marietta, East Cobb, West Cobb, Kennesaw, Acworth, Smyrna, Roswell, Woodstock, Sandy Springs, Canton, Vinings and Powder Springs",
+  "pricing": {
+    "summary": "Start with our free instant roof measurement on the website for a quick replacement planning range. Final pricing depends on roof access, pitch, decking, ventilation, flashing, and material selections confirmed during a free inspection - then you get an honest, line-item written quote."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Roofing",
+      "description": "Free inspections, roof repair, roof replacement, and storm damage work - 500+ roofs replaced in Georgia."
+    },
+    {
+      "name": "Gutters",
+      "description": "Gutter replacement and installation."
+    },
+    {
+      "name": "Siding",
+      "description": "Siding installation and replacement."
+    },
+    {
+      "name": "Painting",
+      "description": "Exterior painting - one contractor for roof, gutters, siding, and paint."
+    },
+    {
+      "name": "Instant roof measurement",
+      "description": "Get an address-based roof measurement and a replacement planning number in minutes, right on our website - no appointment needed to start."
+    }
+  ],
+  "tagline": "Roofing, gutters, siding & painting - Marietta, GA",
+  "website": "https://www.rhino-roofs.com/"
+}

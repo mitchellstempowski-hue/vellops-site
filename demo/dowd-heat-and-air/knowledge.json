@@ -1,0 +1,105 @@
+{
+  "_comment": "Knowledge for Dowd Heat and Air - built from dowdheatandair.com on 2026-11-08 for the Digon Design partner demo. Repair prices are not published on the site; Dowd quotes upfront before work starts, so this demo says so.",
+  "accent_color": "#17558c",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Book a service visit right here in chat (leave your name, email and a note about the problem), or call (918) 437-3721 - same-day repair is often available during business hours.",
+    "link": null
+  },
+  "business_name": "Dowd Heat and Air",
+  "client_id": "dowd-heat-and-air",
+  "demo_chips": [
+    "Do you offer emergency HVAC service?",
+    "What brands do you service?",
+    "How do I get started?"
+  ],
+  "contact": {
+    "email": "abigail@dowdheatandair.com",
+    "phone": "(918) 437-3721"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can call Dowd Heat and Air at (918) 437-3721, email abigail@dowdheatandair.com, or leave your name and email here and the team will follow up.",
+  "faqs": [
+    {
+      "q": "Do you offer emergency HVAC service?",
+      "a": "Dowd offers same-day repair across the Tulsa metro during business hours (Mon-Fri 8am-7pm, Sat 8am-5pm), and no-heat or no-cool breakdowns go to the front of the line. If your system fails outside those hours, call (918) 437-3721 and you'll be first on the schedule when they open.",
+      "keywords": [
+        "emergency",
+        "same day",
+        "broken",
+        "no heat",
+        "no cool",
+        "weekend"
+      ]
+    },
+    {
+      "q": "What brands do you install and service?",
+      "a": "All major brands, including Rheem, Carrier, Trane, Bryant, Goodman and Lennox - Dowd's technicians are trained and certified across multiple manufacturers.",
+      "keywords": [
+        "brands",
+        "rheem",
+        "carrier",
+        "trane",
+        "bryant",
+        "goodman",
+        "lennox"
+      ]
+    },
+    {
+      "q": "Do you offer financing?",
+      "a": "Yes - Dowd partners with Upgrade to offer flexible financing on new systems, so you don't have to pay the full amount upfront. Ask about available plans when you get your quote.",
+      "keywords": [
+        "financing",
+        "finance",
+        "payment",
+        "upgrade",
+        "pay over time"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Dowd Heat and Air assistant - happy to help with AC, heating, tune-ups or indoor air quality questions.",
+  "hours": "Dowd Heat and Air is open Monday to Friday, 8am to 7pm, and Saturday, 8am to 5pm (closed Sundays). Same-day repair is often available during those hours - call (918) 437-3721.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Dowd Heat and Air, a family-owned Tulsa HVAC company serving the metro since 1995. I can answer questions about repairs, replacements, maintenance and financing, or take your details so the team can follow up.",
+  "handoff_ask": "Would you like me to pass your details to the Dowd Heat and Air team so they can follow up by email?",
+  "handoff_confirm": "You're all set - the Dowd Heat and Air team has your details and will follow up by email shortly.",
+  "lead_confirm": "Thanks, {name} - I've passed your details to the Dowd Heat and Air team. If it's urgent, you can also call (918) 437-3721.",
+  "lead_prompt": "Could I grab your name, the best email, and a quick note about what you need? I'll pass it to the team right away.",
+  "location": "Tulsa, Oklahoma - serving Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, Sapulpa, Claremore, Collinsville, Glenpool, Skiatook, Coweta, Bristow and Tahlequah",
+  "pricing": {
+    "summary": "Repair prices aren't published on the Dowd website - Dowd quotes upfront before any work starts, and you approve the price first. Written estimates are provided on replacements, and qualifying PSO heat-pump rebates ($600, $1,000 or $1,400 depending on efficiency) come straight off the invoice. Financing is available through Upgrade."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Air conditioning",
+      "description": "AC repair, installation and seasonal tune-ups to keep you cool through every Oklahoma summer."
+    },
+    {
+      "name": "Heating & furnace",
+      "description": "Furnace repairs, heat pump installs and heating system maintenance for reliable warmth when it matters."
+    },
+    {
+      "name": "HVAC replacement",
+      "description": "Full system replacements with a written estimate after an in-home measure - Dowd repairs when it can and replaces only when it's truly needed."
+    },
+    {
+      "name": "Maintenance plans",
+      "description": "Service plans with twice-a-year tune-ups - spring for cooling prep, fall for heating prep - to extend equipment life and prevent breakdowns."
+    },
+    {
+      "name": "Air filtration",
+      "description": "Whole-home air purification and filtration systems that remove up to 99% of airborne contaminants."
+    },
+    {
+      "name": "Smart thermostats",
+      "description": "EcoNet and smart thermostat installation so you can control your comfort from anywhere and save on energy bills."
+    }
+  ],
+  "tagline": "Family-owned heating & cooling contractor - serving Tulsa since 1995",
+  "website": "https://dowdheatandair.com/"
+}

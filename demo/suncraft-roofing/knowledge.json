@@ -1,0 +1,108 @@
+{
+  "_comment": "Knowledge for SunCraft Roofing - built from suncraftroofing.com on 2026-11-08 for the TMN Creative partner demo. Pricing is not published on the site (a $$ range only) and hours aren't published either, so this demo says so instead of quoting either.",
+  "accent_color": "#0d4f5f",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Book a roof inspection right here in chat (leave your name, email and a note about your roof), or call 310-955-1051.",
+    "link": null
+  },
+  "business_name": "SunCraft Roofing",
+  "client_id": "suncraft-roofing",
+  "demo_chips": [
+    "Can you inspect my roof before quoting?",
+    "Are you licensed and insured?",
+    "What are your hours?"
+  ],
+  "contact": {
+    "email": "info@suncraftroofing.com",
+    "phone": "310-955-1051"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can call SunCraft Roofing at 310-955-1051, email info@suncraftroofing.com, or leave your name and email here and the team will follow up.",
+  "faqs": [
+    {
+      "q": "What roofing services do you offer?",
+      "a": "Inspections, repairs, replacements, maintenance and emergency repairs for homes and commercial buildings - including shingle, tile, metal and flat roof systems (TPO, PVC, torch down and coatings).",
+      "keywords": [
+        "services",
+        "roofing",
+        "roof repair",
+        "replacement",
+        "what do you do"
+      ]
+    },
+    {
+      "q": "Are you licensed and insured?",
+      "a": "Yes - SunCraft Roofing is licensed, insured and bonded (California CSLB license #1146573), and is an APOC Certified Contractor and a GAF Certified Plus Roofing Contractor. Owner Garrett Horton personally conducts inspections.",
+      "keywords": [
+        "licensed",
+        "insured",
+        "license",
+        "cslb",
+        "certified",
+        "gaf"
+      ]
+    },
+    {
+      "q": "How much does a new roof cost?",
+      "a": "Pricing isn't published on the SunCraft website - every job starts with a documented inspection, and you get photos and plain condition notes before the quote. Financing is available for qualifying projects. Leave your details here and the team will follow up.",
+      "keywords": [
+        "cost",
+        "price",
+        "pricing",
+        "quote",
+        "estimate",
+        "how much"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the SunCraft Roofing assistant - happy to help with roof inspections, repairs, replacements or maintenance questions.",
+  "hours": "Hours aren't published on the SunCraft Roofing website - call 310-955-1051 or email info@suncraftroofing.com for current hours.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for SunCraft Roofing, a family-run roofing company in Carson, California led by owner Garrett Horton. I can answer questions about inspections, repairs, replacements and maintenance, or take your details so the team can follow up.",
+  "handoff_ask": "Would you like me to pass your details to the SunCraft Roofing team so they can follow up by email?",
+  "handoff_confirm": "You're all set - the SunCraft Roofing team has your details and will follow up by email shortly.",
+  "lead_confirm": "Thanks, {name} - I've passed your details to the SunCraft Roofing team. If it's urgent, you can also call 310-955-1051.",
+  "lead_prompt": "Could I grab your name, the best email, and a quick note about what you need? I'll pass it to the team right away.",
+  "location": "Carson, California - serving South Bay LA, Long Beach, Greater Los Angeles and Orange County",
+  "pricing": {
+    "summary": "Pricing isn't published on the SunCraft Roofing website - every roof starts with a documented inspection, with photos and plain condition notes before the quote. Financing is available for qualifying projects."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Roof inspections",
+      "description": "A documented roof inspection before anything is quoted - photos of what Garrett finds, plain condition notes, and straight answers on whether you need a repair or a replacement."
+    },
+    {
+      "name": "Roof repair",
+      "description": "Leak detection, flashing repair, storm damage and tile resets - proper repairs, not patches that fail in two seasons."
+    },
+    {
+      "name": "Roof replacement",
+      "description": "Complete tear-off and reroofing when a roof is at the end of its life, in shingle, tile or metal."
+    },
+    {
+      "name": "Residential roofing",
+      "description": "Roofing for single-family homes across the South Bay and Greater Los Angeles, including gutters."
+    },
+    {
+      "name": "Commercial roofing",
+      "description": "Flat roof installation, repair, coatings and maintenance for warehouses, retail, offices, light industrial and HOA or multifamily properties."
+    },
+    {
+      "name": "Roof maintenance",
+      "description": "Seasonal cleaning, sealant refresh and drain checks to keep small problems from becoming big ones."
+    },
+    {
+      "name": "Emergency roof repair",
+      "description": "Storm just opened your roof up? Call 310-955-1051 - SunCraft handles emergency roof repairs."
+    }
+  ],
+  "tagline": "Roofs that weather the coast",
+  "website": "https://suncraftroofing.com/"
+}

@@ -1,0 +1,100 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for JP Roofing & Solutions LLC. Facts harvested from the business's own website on 2026-10-26. Preview/demo use only - Vellops Demo Drop Batch 1.",
+  "accent_color": "#4d5b2f",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (319) 529-4584 or use the free estimate form on our website - or leave your details here and we'll follow up.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "JP Roofing & Solutions LLC",
+  "client_id": "jp-roofing",
+  "demo_chips": ["How much does a roof replacement cost?", "How do I get a free estimate?", "What are your hours?"],
+  "contact": {
+    "email": "info@jproofingiowa.com",
+    "phone": "(319) 529-4584"
+  },
+  "fallback": "Great question - I don't want to guess on that one. Call us at (319) 529-4584 or email info@jproofingiowa.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Are you certified?",
+      "a": "Yes - we're GAF Master Elite Certified, an Owens Corning Preferred Contractor, a VSI Certified Installer, and a BBB Accredited Business, with 12+ years serving Cedar Valley homeowners.",
+      "keywords": [
+        "certified",
+        "gaf",
+        "bbb",
+        "master elite",
+        "accredited"
+      ]
+    },
+    {
+      "q": "Do you offer free estimates?",
+      "a": "Yes - estimates are free. We'll come out, take a look, and give you a clear written estimate for your roof, siding, or gutters.",
+      "keywords": [
+        "free estimate",
+        "free inspection",
+        "written estimate"
+      ]
+    },
+    {
+      "q": "Do you help with insurance claims?",
+      "a": "Yes - we coordinate directly with your insurance company when storm or hail damage is involved.",
+      "keywords": [
+        "insurance",
+        "claim",
+        "storm",
+        "hail"
+      ]
+    },
+    {
+      "q": "Do you offer financing?",
+      "a": "Yes - we partner with trusted financing providers so you can move forward today and pay over time. Ask about your options when you request your estimate.",
+      "keywords": [
+        "financing",
+        "pay over time",
+        "monthly"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the JP Roofing assistant - ask me about roofing, siding, gutters, storm damage, or a free estimate.",
+  "hours": "Monday-Saturday, 8:00 AM - 6:00 PM, with 24/7 emergency services. Call (319) 529-4584.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for JP Roofing & Solutions LLC - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at JP Roofing & Solutions LLC! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the JP Roofing & Solutions LLC team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the JP Roofing & Solutions LLC team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (319) 529-4584.",
+  "location": "Waterloo, Iowa - 1419 Logan Ave - serving Waterloo, Cedar Falls and 25+ towns across Iowa's Cedar Valley, within roughly 40 miles",
+  "pricing": {
+    "summary": "Estimates are free - we'll come out, take a look, and give you a clear written estimate. We don't publish flat prices because every roof, siding, and gutter job is different, and flexible financing is available if you'd like to spread the cost out."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Roofing",
+      "description": "Repairs, replacements, and new installations using materials built for Iowa weather - from small leaks to complete roof-overs."
+    },
+    {
+      "name": "Siding",
+      "description": "Vinyl, fiber cement, and composite siding."
+    },
+    {
+      "name": "Gutters",
+      "description": "Seamless gutters, downspouts, and gutter guards."
+    },
+    {
+      "name": "Storm damage & insurance help",
+      "description": "We coordinate directly with your insurance company when storm or hail damage is involved."
+    },
+    {
+      "name": "Roof financing",
+      "description": "Flexible financing through trusted providers, so a sound roof never has to wait."
+    }
+  ],
+  "tagline": "Roofing contractor in Waterloo & the Cedar Valley, IA",
+  "website": "http://jproofingiowa.com/"
+}

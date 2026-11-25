@@ -1,0 +1,104 @@
+{
+  "_comment": "Knowledge for Stonehaven Landscapes - built from stonehavenlandscapes.com on 2026-11-08 for the Reid Sutton partner demo. The client's site publishes no phone, email, hours, pricing or service area, so this demo says so and routes everything through lead capture (email stays null, and phone is null too - no wave-1 demo had a null phone; flagged in the build log).",
+  "accent_color": "#57503f",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Start your project right here in chat - leave your name, email and a note about what you'd like to build, and the team will follow up by email.",
+    "link": null
+  },
+  "business_name": "Stonehaven Landscapes",
+  "client_id": "stonehaven-landscapes",
+  "demo_chips": [
+    "What services do you offer?",
+    "Do you build pizza ovens?",
+    "How do I get started?"
+  ],
+  "contact": {
+    "email": null,
+    "phone": null
+  },
+  "fallback": "Great question - I don't want to guess on that one. Leave your name and email here and the Stonehaven Landscapes team will follow up by email.",
+  "faqs": [
+    {
+      "q": "What services do you offer?",
+      "a": "Design-and-build stonework and landscape construction: patios, stone walls, custom pizza ovens and outdoor cooking spaces, pool and hot tub backyard builds, and perennial gardens. Artisan stonework is the specialty.",
+      "keywords": [
+        "services",
+        "stonework",
+        "patio",
+        "wall",
+        "oven",
+        "what do you do"
+      ]
+    },
+    {
+      "q": "Who will actually build my project?",
+      "a": "Brian Moore, the lead mason, works on every project. He brings over 25 years of experience in masonry and landscape construction.",
+      "keywords": [
+        "who",
+        "brian",
+        "mason",
+        "experience",
+        "crew"
+      ]
+    },
+    {
+      "q": "How much does a project cost?",
+      "a": "Pricing isn't published on the Stonehaven website - each project is custom-designed around your property. Leave your details here and the team will follow up by email to talk through your project.",
+      "keywords": [
+        "cost",
+        "price",
+        "pricing",
+        "quote",
+        "estimate",
+        "how much"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Stonehaven Landscapes assistant - happy to help with stonework, patios, walls or outdoor living questions.",
+  "hours": "Hours aren't published on the Stonehaven Landscapes website - leave your details here and the team will follow up by email with their availability.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Stonehaven Landscapes, a design-and-build stonework and landscape construction company. Their specialty is artisan stonework, and lead mason Brian Moore works on every project. I can answer questions or take your details so the team can follow up.",
+  "handoff_ask": "Would you like me to pass your details to the Stonehaven Landscapes team so they can follow up by email?",
+  "handoff_confirm": "You're all set - the Stonehaven Landscapes team has your details and will follow up by email shortly.",
+  "lead_confirm": "Thanks, {name} - I've passed your details to the Stonehaven Landscapes team, and they'll follow up by email.",
+  "lead_prompt": "Could I grab your name, the best email, and a quick note about your project? I'll pass it to the team right away.",
+  "location": "Stonework & landscape construction - location and service area aren't published on their website",
+  "pricing": {
+    "summary": "Pricing isn't published on the Stonehaven Landscapes website - every project is custom stonework, designed and built for the property. Leave your details here and the team will follow up about your project."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "Who builds my project?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Artisan stonework",
+      "description": "Stonehaven's specialty - quality stonework, designed and built to add lasting value to your property."
+    },
+    {
+      "name": "Patios",
+      "description": "Custom patios, including large porcelain patios finished with bluestone coping."
+    },
+    {
+      "name": "Stone walls",
+      "description": "Fieldstone walls and retaining work, built by lead mason Brian Moore, who works on every project."
+    },
+    {
+      "name": "Pizza ovens & outdoor cooking",
+      "description": "Custom outdoor ovens, including a Tuscan-inspired pizza oven built as the centerpiece of an outdoor cooking space."
+    },
+    {
+      "name": "Backyard oasis builds",
+      "description": "Complete backyard transformations with pools, hot tubs and patios designed as one outdoor room."
+    },
+    {
+      "name": "Perennial gardens",
+      "description": "Skillfully designed and maintained perennial gardens that soften the stonework and mature with the property."
+    }
+  ],
+  "tagline": "Artisan stonework",
+  "website": "https://stonehavenlandscapes.com/"
+}

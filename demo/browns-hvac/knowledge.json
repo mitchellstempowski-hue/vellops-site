@@ -1,0 +1,98 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Browns Heating & Cooling. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2.",
+  "accent_color": "#7f1d1d",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (708) 536-8134 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Browns Heating & Cooling",
+  "client_id": "browns-hvac",
+  "demo_chips": ["How much does a maintenance plan cost?", "How do I get started?", "What are your hours?"],
+  "contact": {
+    "email": "support@brownshvac.net",
+    "phone": "(708) 536-8134"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Browns Heating & Cooling at (708) 536-8134 or support@brownshvac.net, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Is there a sign-up or cancellation fee?",
+      "a": "No. There is no sign-up fee and no cancellation fee, so you can join without any risk.",
+      "keywords": [
+        "sign-up fee",
+        "cancellation fee",
+        "cancel",
+        "signup"
+      ]
+    },
+    {
+      "q": "Do I have to schedule my own tune-ups?",
+      "a": "No. Once you are a member, we take care of scheduling your maintenance visits, so your systems never miss their service.",
+      "keywords": [
+        "schedule my own",
+        "tune-ups",
+        "scheduling",
+        "remind"
+      ]
+    },
+    {
+      "q": "What is the loyalty credit?",
+      "a": "Members earn a $100 per year loyalty credit, up to $1,000, toward a system replacement.",
+      "keywords": [
+        "loyalty",
+        "credit",
+        "replacement credit"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Browns Heating & Cooling assistant - happy to help with furnace, AC, boiler, or maintenance plan questions.",
+  "hours": "Emergency technicians are available 24 hours a day - call (708) 536-8134, day or night.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Browns Heating & Cooling - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Browns Heating & Cooling! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Browns Heating & Cooling team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Browns Heating & Cooling team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (708) 536-8134.",
+  "location": "Chicago, Illinois - serving all Chicago neighborhoods and Cook County suburbs",
+  "pricing": {
+    "summary": "Maintenance plans are priced per system: furnace, AC and boiler tune-up plans are $10.99 per month, a high-efficiency boiler plan is $12.99 per month, and a water heater plan is $9.99 per month - a single furnace/AC system runs $239.88 per year. There's no sign-up fee and no cancellation fee, and members get 25% off all repairs, a 5-year parts warranty on repairs, waived service fees and no overtime fees."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Furnace service",
+      "description": "Furnace tune-ups, repair and installation."
+    },
+    {
+      "name": "Air conditioning service",
+      "description": "AC tune-ups, repair and installation."
+    },
+    {
+      "name": "Boiler service",
+      "description": "Boiler tune-ups, repair and installation."
+    },
+    {
+      "name": "Water heater service",
+      "description": "Water heater tune-ups and service."
+    },
+    {
+      "name": "Emergency HVAC service",
+      "description": "24-hour emergency heating and cooling service."
+    },
+    {
+      "name": "Commercial HVAC maintenance",
+      "description": "Commercial maintenance contracts, including rooftop units."
+    },
+    {
+      "name": "Maintenance plans",
+      "description": "Per-system maintenance plans with member repair discounts."
+    }
+  ],
+  "tagline": "Heating & cooling for Chicago and Cook County",
+  "website": "https://brownshvac.net/"
+}

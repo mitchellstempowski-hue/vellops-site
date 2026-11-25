@@ -1,0 +1,99 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Dynamic Home Repair. Facts harvested from the business's own website on 2026-11-04. Preview/demo use only - Vellops Demo Drop Partner Batch (Designer Pilots).",
+  "accent_color": "#0b2c4a",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Call 1-800-674-2604 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null
+  },
+  "business_name": "Dynamic Home Repair",
+  "client_id": "dynamic-home-repair",
+  "demo_chips": [
+    "What does the Lifetime Warranty cover?",
+    "How do I get started?",
+    "What are your hours?"
+  ],
+  "contact": {
+    "email": "info@dynamichomerepair.com",
+    "phone": "1-800-674-2604"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Dynamic Home Repair at 1-800-674-2604 or info@dynamichomerepair.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "a": "Dynamic Home Repair is a product and service administration company for the manufactured housing industry. It provides warranty product administration and after-sale services to homeowners through dealers and manufacturers, and it started operations in 2019.",
+      "keywords": [
+        "who is",
+        "about",
+        "company",
+        "manufactured housing"
+      ],
+      "q": "Who is Dynamic Home Repair?"
+    },
+    {
+      "a": "When a dealership offers the Lifetime Warranty, no other dealership within 50 miles of its location can offer the same Lifetime Warranty - it's theirs alone.",
+      "keywords": [
+        "50-mile",
+        "exclusivity",
+        "exclusive",
+        "territory"
+      ],
+      "q": "What's the 50-mile exclusivity zone?"
+    },
+    {
+      "a": "Yes. The Lifetime Warranty and Dynamic Service are separate programs - you can sign up for one or both, depending on your needs.",
+      "keywords": [
+        "separate programs",
+        "sign up for one",
+        "both programs",
+        "dynamic service"
+      ],
+      "q": "Can I sign up for just one program?"
+    }
+  ],
+  "greeting": "Hi there! I'm the Dynamic Home Repair assistant - happy to help with Lifetime Warranty, Dynamic Service, or dealer partnership questions.",
+  "hours": "Hours aren't published on the Dynamic Home Repair website - call 1-800-674-2604 or email info@dynamichomerepair.com for current hours.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Dynamic Home Repair - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Dynamic Home Repair! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Dynamic Home Repair team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Dynamic Home Repair team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at 1-800-674-2604.",
+  "location": "Conway, Arkansas - serving manufactured home dealerships and homeowners across the country through dealers and manufacturers",
+  "pricing": {
+    "summary": "Pricing isn't published on the Dynamic Home Repair website. The site notes the Lifetime Warranty is dealer purchased and included at no additional cost to the homeowner - call 1-800-674-2604 for program details."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "description": "Seamless, coordinated support for post-purchase service and warranty needs in year one, with concierge white-glove warranty support.",
+      "name": "Dynamic Service"
+    },
+    {
+      "description": "Industry-leading lifetime coverage on major components, including the hot water heater, HVAC and plumbing. Dealer purchased and included at no additional cost to the homeowner.",
+      "name": "Lifetime Warranty"
+    },
+    {
+      "description": "Warranty product administration and after-sale services for the manufactured housing industry, through dealers and manufacturers.",
+      "name": "Warranty product administration"
+    },
+    {
+      "description": "A dedicated CSR assigned to your dealership for full coordination - manufacturer calls, contractor scheduling and homeowner updates.",
+      "name": "Dedicated CSR service team"
+    },
+    {
+      "description": "Access to Dynamic Home Repair's proprietary platform, with real-time visibility into updates, homeowner communication and CSR activity.",
+      "name": "Dealer platform access"
+    },
+    {
+      "description": "Tailored homeowner support including trim outs, HVAC installs and more, from welcome call through completed, signed-off service items.",
+      "name": "Homeowner service coordination"
+    }
+  ],
+  "tagline": "Built to Serve. Designed to Protect.",
+  "website": "https://dynamichomerepair.com/"
+}

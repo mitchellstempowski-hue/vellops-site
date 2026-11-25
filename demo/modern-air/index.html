@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modern Air - AI Chatbot Demo (Preview by Vellops)</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; color: #12212e; background: #fdfdfb; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 120px; }
+  h1 { font-size: 26px; }
+  .banner { background: #0b5fa5; color: #fff; padding: 14px 20px; }
+  .banner strong { font-size: 16px; }
+  .card { background: #f2f6f6; border: 1px solid #dcebea; border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+  code { background: #e8eeee; padding: 1px 5px; border-radius: 4px; }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<div class="banner"><strong>Demo built for Modern Air by Vellops</strong></div>
+<main>
+  <h1>Modern Air - Family-run HVAC for Morgan Hill & the South Bay</h1>
+  <p><strong>Preview:</strong> this is a working preview of an AI chatbot for Modern Air, built by
+  <strong>Vellops</strong> from information published on Modern Air's own website. It is a demo only -
+  nothing you type here is sent to or saved by Modern Air, and it is not the business's live chat.</p>
+  <div class="card">
+    <strong>Try asking the chatbot (bottom-right):</strong>
+    <ul>
+      <li>"What services do you offer?"</li>
+      <li>"What are your hours?"</li>
+      <li>"How much does a maintenance plan cost?"</li>
+    </ul>
+    <p>On their real site, this chatbot would answer customers day and night, handle customer-service and sales questions, capture leads, and help book jobs - and every new lead would be emailed to the team the moment it happens.</p>
+  </div>
+  <p>Modern Air: https://modernairco.com/ &middot; Morgan Hill, California - serving 30+ cities across Santa Clara County, the Peninsula and the Santa Cruz coast</p>
+  <!-- vellops-close-block -->
+  <div class="card">
+    <strong style="font-size:18px">Want this answering visitors on Modern Air&rsquo;s real website?</strong>
+    <p>We can switch this exact chatbot on for your site &mdash; free for 14 days, $0 due today, no setup fee &mdash; a card is required to start, but nothing is charged until day 15. If it books nothing in the first 30 days on a paid plan, that&rsquo;s a full refund, in writing.</p>
+    <p style="margin:14px 0"><a href="https://vellops.com/#contact" style="display:inline-block;background:#0b5fa5;color:#fff;font-weight:700;font-size:16px;padding:13px 26px;border-radius:10px;text-decoration:none">Activate the free 14-day trial</a></p>
+    <p style="font-size:13px;color:#5a6b76;margin:0">No long contract &middot; Cancel by reply &middot; You approve every word it can say before it goes live</p>
+  </div>
+</main>
+<script>
+  var KNOWLEDGE = {
+  "_comment": "Demo Drop knowledge file (mode b: client) for Modern Air. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2 reserves.",
+  "accent_color": "#0b5fa5",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (408) 497-0444 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Modern Air",
+  "client_id": "modern-air",
+  "demo_chips": ["How much does a maintenance plan cost?", "How do I get started?", "What are your hours?"],
+  "contact": {
+    "email": "info@modernairco.com",
+    "phone": "(408) 497-0444"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Modern Air at (408) 497-0444 or info@modernairco.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "How much does a service call cost?",
+      "a": "Repair visits start with a flat $110 diagnostic that covers finding the actual fault, and it comes off the repair when you go ahead. You then get upfront pricing in writing before any work begins.",
+      "keywords": [
+        "diagnostic",
+        "service call",
+        "visit fee",
+        "come out"
+      ]
+    },
+    {
+      "q": "Are estimates free?",
+      "a": "Yes - replacement estimates are free, with no obligation, and the person who quotes them is a working installer, not a commissioned salesperson.",
+      "keywords": [
+        "free estimate",
+        "estimates free",
+        "free quote"
+      ]
+    },
+    {
+      "q": "What does the maintenance plan include?",
+      "a": "Two tune-ups a year (spring and fall) with a full multi-point inspection at every visit, priority scheduling, 10% off parts and repairs, and 5% off new equipment - starting at $15 a month per system on a one-year term.",
+      "keywords": [
+        "maintenance plan",
+        "membership",
+        "plan include",
+        "tune-ups a year"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Modern Air assistant - happy to help with AC, furnace, heat pump, or maintenance plan questions.",
+  "hours": "We answer 24/7 - call (408) 497-0444 any time, day or night.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Modern Air - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Modern Air! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Modern Air team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Modern Air team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (408) 497-0444.",
+  "location": "Morgan Hill, California - serving 30+ cities across Santa Clara County, the Peninsula and the Santa Cruz coast",
+  "pricing": {
+    "summary": "Replacement estimates are free. Repair visits start with a flat $110 diagnostic, and that fee comes off the repair if you go ahead - repairs typically run $223-$2,899 (median $761) depending on the fault, and you always get an upfront written price before any work starts. The maintenance plan starts at $15 per month per system, with two tune-ups a year. Our labor warranty is 3 years on installs and 2 years on repairs."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Air conditioning",
+      "description": "AC repair, installation and tune-ups on every brand, plus smart thermostats."
+    },
+    {
+      "name": "Heating & furnaces",
+      "description": "Gas and electric furnace repair, replacement and annual tune-ups, with safety and carbon monoxide checks."
+    },
+    {
+      "name": "Heat pumps & ductless mini-splits",
+      "description": "Trane ducted heat pumps and Mitsubishi ductless mini-splits, with California rebate paperwork handled."
+    },
+    {
+      "name": "Maintenance plan",
+      "description": "Two tune-ups a year, priority scheduling, member repair discounts and a full inspection report every visit."
+    },
+    {
+      "name": "Indoor air quality",
+      "description": "Purifiers, filtration and ventilation."
+    },
+    {
+      "name": "Ductwork",
+      "description": "Sealing, repair and replacement for better airflow."
+    },
+    {
+      "name": "Commercial HVAC",
+      "description": "Offices, retail, restaurants and warehouses."
+    }
+  ],
+  "tagline": "Family-run HVAC for Morgan Hill & the South Bay",
+  "website": "https://modernairco.com/"
+};
+  function boot(knowledge) {
+    window.VELLOPS_CHAT = { client: 'modern-air', mock: true, knowledge: knowledge };
+    var s = document.createElement('script');
+    s.src = '../assets/widget.js';
+    document.body.appendChild(s);
+  }
+  if (window.fetch && location.protocol.indexOf('http') === 0) {
+    fetch('knowledge.json').then(function (r) { return r.json(); }).then(boot).catch(function () { boot(KNOWLEDGE); });
+  } else {
+    boot(KNOWLEDGE);
+  }
+</script>
+<!-- RB2B-PIXEL v1: visitor identification (see /privacy-policy.html). Skipped when the browser sends a Global Privacy Control signal. -->
+<script>if (navigator.globalPrivacyControl !== true) {!function(key) {if (window.reb2b) return;window.reb2b = {loaded: true};var s = document.createElement("script");s.async = true;s.src = "https://ddwl4m2hdecbv.cloudfront.net/b/" + key + "/" + key + ".js.gz";document.getElementsByTagName("script")[0].parentNode.insertBefore(s, document.getElementsByTagName("script")[0]);}("XOE9GH3021OM");}</script>
+</body>
+</html>

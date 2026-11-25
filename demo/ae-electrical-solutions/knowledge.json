@@ -1,0 +1,153 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for A&E Electrical Solutions LLC. Facts harvested from the business's own website (aeelectricusa.com homepage + /why-us) on 2026-11-25. Preview/demo use only - Vellops Demo Drop for A&E Electrical Solutions LLC (warm prospect - replied Nov 2, 2026 asking costs).",
+  "accent_color": "#a04000",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Call (520) 274-5641 to schedule a free estimate, or leave your details here and we'll follow up by email.",
+    "link": null
+  },
+  "business_name": "A&E Electrical Solutions LLC",
+  "client_id": "ae-electrical-solutions",
+  "contact": {
+    "email": "AEElectricalSolutionsLLC@gmail.com",
+    "phone": "(520) 274-5641"
+  },
+  "demo_chips": [
+    "Do you install home EV charging stations?",
+    "Can I get a free estimate?",
+    "Is emergency service available 24/7?"
+  ],
+  "fallback": "Great question - I don't want to guess on that one. You can reach A&E Electrical Solutions at (520) 274-5641 or AEElectricalSolutionsLLC@gmail.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "a": "Yes - A&E Electrical Solutions is fully licensed, bonded, and insured under Arizona ROC #353902.",
+      "keywords": [
+        "licensed",
+        "insured",
+        "license",
+        "insurance",
+        "bonded",
+        "roc"
+      ],
+      "q": "Are you licensed and insured?"
+    },
+    {
+      "a": "Yes - estimates are free across the Tucson metro area. Call (520) 274-5641 or leave your name and email here and the team will follow up with honest pricing and a clear plan.",
+      "keywords": [
+        "free estimate",
+        "estimate",
+        "free quote",
+        "quote"
+      ],
+      "q": "Do you offer free estimates?"
+    },
+    {
+      "a": "Yes - emergency service is available 24/7. Power issues don't wait for business hours, and neither do we. Call (520) 274-5641 any time, day or night.",
+      "keywords": [
+        "emergency",
+        "24/7",
+        "after hours",
+        "power out",
+        "outage",
+        "urgent"
+      ],
+      "q": "Do you handle electrical emergencies?"
+    },
+    {
+      "a": "We modernize your service panel for today's demand - safer breakers, higher amperage, and full code compliance. Work is permitted, inspected, and signed off. A modern panel also helps with high-demand appliances like EVs, AC, and hot tubs, and can add value at resale.",
+      "keywords": [
+        "panel upgrade",
+        "panel",
+        "breaker",
+        "amperage",
+        "200 amp",
+        "service upgrade"
+      ],
+      "q": "What does a panel upgrade involve?"
+    },
+    {
+      "a": "Yes - we install Level 2 home and commercial EV charging stations, clean and to manufacturer spec, including Tesla Wall Connectors.",
+      "keywords": [
+        "ev charger",
+        "electric vehicle",
+        "tesla",
+        "wall connector",
+        "charging station",
+        "level 2"
+      ],
+      "q": "Do you install EV chargers?"
+    },
+    {
+      "a": "We serve Tucson, Marana, Oro Valley, Vail, and Sahuarita, and neighbors across southern Arizona.",
+      "keywords": [
+        "service area",
+        "areas",
+        "marana",
+        "oro valley",
+        "vail",
+        "sahuarita",
+        "tucson",
+        "serve"
+      ],
+      "q": "What areas do you serve?"
+    },
+    {
+      "a": "The A&E Electrical Solutions crew brings 20+ years of combined hands-on residential and commercial experience to every job, and the business is owner-operated - you deal directly with the owner.",
+      "keywords": [
+        "how long",
+        "experience",
+        "years in business",
+        "owner",
+        "reviews",
+        "rating"
+      ],
+      "q": "How long have you been in business?"
+    }
+  ],
+  "greeting": "Hi there! I'm the A&E Electrical Solutions assistant - happy to help with panel upgrades, EV chargers, troubleshooting, or a free estimate.",
+  "handoff_ask": "Of course - happy to pass this to the team at A&E Electrical Solutions! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the A&E Electrical Solutions team with your email - they'll email you shortly.",
+  "handoff_mode": "owner_text",
+  "hours": "Emergency service available 24/7",
+  "identity_reply": "I'm the AI assistant for A&E Electrical Solutions - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the A&E Electrical Solutions team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (520) 274-5641.",
+  "location": "Tucson, Arizona - serving Tucson, Marana, Oro Valley, Vail & Sahuarita (southern Arizona)",
+  "pricing": {
+    "summary": "Every job is different, so A&E Electrical Solutions quotes each project individually - there's no published price list. Estimates are free across the Tucson metro area: call (520) 274-5641 or leave your name and email here and the team will follow up with honest pricing and a clear plan."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What areas do you serve?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "description": "Whole-home wiring, rewires, safety inspections, and code upgrades that keep your family protected.",
+      "name": "Residential Electrical"
+    },
+    {
+      "description": "Build-outs, tenant improvements, and service upgrades for offices, retail, and industrial spaces.",
+      "name": "Commercial Electrical"
+    },
+    {
+      "description": "Modernize your service panel for today's demand - safer breakers, higher amperage, future-ready. Permitted, inspected, and signed off.",
+      "name": "Panel Upgrades"
+    },
+    {
+      "description": "Level 2 home and commercial EV charging stations installed clean, fast, and to manufacturer spec.",
+      "name": "EV Charger Installation"
+    },
+    {
+      "description": "Fast diagnostics and lasting solutions - we find the root cause and fix it the right way the first time.",
+      "name": "Troubleshooting & Repairs"
+    },
+    {
+      "description": "Recessed lighting, fixtures, smart switches, dedicated circuits, and outlet installs - all done clean.",
+      "name": "Lighting & Outlets"
+    }
+  ],
+  "tagline": "Powering Homes. Building Trust.",
+  "website": "https://aeelectricusa.com/"
+}

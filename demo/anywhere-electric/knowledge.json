@@ -1,0 +1,103 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Anywhere Electric. Facts harvested from the business's own website on 2026-11-04. Preview/demo use only - Vellops Demo Drop Partner Batch (Designer Pilots).",
+  "accent_color": "#0f3b5f",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Call 970-308-9969 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null
+  },
+  "business_name": "Anywhere Electric",
+  "client_id": "anywhere-electric",
+  "demo_chips": [
+    "Do you offer emergency electrical repair?",
+    "How do I get started?",
+    "What are your hours?"
+  ],
+  "contact": {
+    "email": "contact@anywhereelectric.com",
+    "phone": "970-308-9969"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Anywhere Electric at 970-308-9969 or contact@anywhereelectric.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "a": "Anywhere Electric provides residential and commercial electrical repairs, panel upgrades, lighting, remodel wiring, retrofits, and new construction electrical services in Northern Colorado.",
+      "keywords": [
+        "services",
+        "what do you do",
+        "provide",
+        "offer"
+      ],
+      "q": "What electrical services do you provide?"
+    },
+    {
+      "a": "Yes. Anywhere Electric provides emergency electrical repair services - call 970-308-9969 for prompt assistance with an urgent electrical issue.",
+      "keywords": [
+        "emergency",
+        "urgent",
+        "emergency repair"
+      ],
+      "q": "Do you offer emergency electrical repair services?"
+    },
+    {
+      "a": "Costs vary by project scope. Anywhere Electric provides honest, upfront pricing and clear quotes before work begins, and you can contact them to request a free quote.",
+      "keywords": [
+        "cost",
+        "price",
+        "pricing",
+        "quote",
+        "estimate"
+      ],
+      "q": "How much do electrical services typically cost?"
+    }
+  ],
+  "greeting": "Hi there! I'm the Anywhere Electric assistant - happy to help with electrical repairs, panel upgrades, lighting, or EV charger questions.",
+  "hours": "Hours aren't published on the Anywhere Electric website - call 970-308-9969 or email contact@anywhereelectric.com for current hours.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Anywhere Electric - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Anywhere Electric! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Anywhere Electric team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Anywhere Electric team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at 970-308-9969.",
+  "location": "Loveland, Colorado - serving Fort Collins, Berthoud, Windsor, Johnstown, Loveland and surrounding Northern Colorado communities",
+  "pricing": {
+    "summary": "Pricing isn't published on the Anywhere Electric website - costs vary by project scope. The site says the team provides honest, upfront pricing and clear quotes before work begins, and you can request a free quote by calling 970-308-9969."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "description": "Dependable home electrical repair services for homeowners and businesses, including emergency electrical repair.",
+      "name": "Electrical repair services"
+    },
+    {
+      "description": "Panel upgrades and updates to outdated electrical panels that improve safety, reliability and system capacity.",
+      "name": "Electrical panel upgrades"
+    },
+    {
+      "description": "EV charger installation for residential and commercial clients.",
+      "name": "EV charger installation"
+    },
+    {
+      "description": "Lighting plans that elevate spaces while considering aesthetics, functionality and energy efficiency.",
+      "name": "Lighting design"
+    },
+    {
+      "description": "Clean, code-compliant electrical solutions for home and business remodels.",
+      "name": "Remodel wiring"
+    },
+    {
+      "description": "Retrofitting spaces for energy efficiency and future readiness.",
+      "name": "Energy efficiency retrofitting"
+    },
+    {
+      "description": "Residential and commercial new construction electrical services.",
+      "name": "New construction electrical"
+    }
+  ],
+  "tagline": "Electrical work done right the first time",
+  "website": "https://anywhereelectric.com/"
+}

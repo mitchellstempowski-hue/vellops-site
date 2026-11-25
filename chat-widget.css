@@ -1,0 +1,85 @@
+/* Vellops live chat widget — matches site dark theme */
+.vchat-hidden { display: none !important; }
+
+.vchat-bubble {
+  position: fixed; right: 20px; bottom: 20px; z-index: 9999;
+  display: flex; align-items: center; gap: 8px;
+  background: #3ddc84; color: #06130b; border: none; border-radius: 999px;
+  padding: 13px 18px; font: 600 15px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  cursor: pointer; box-shadow: 0 6px 24px rgba(0,0,0,.45);
+}
+.vchat-bubble:hover { filter: brightness(1.06); }
+.vchat-dot { width: 9px; height: 9px; border-radius: 50%; background: #06130b; animation: vchat-pulse 1.8s infinite; }
+@keyframes vchat-pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+
+.vchat-teaser {
+  position: fixed; right: 20px; bottom: 78px; z-index: 9999;
+  background: #f2f6ff; color: #0a0f1d; border-radius: 12px 12px 3px 12px;
+  padding: 10px 14px; font: 500 14px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  box-shadow: 0 6px 24px rgba(0,0,0,.45); cursor: pointer; max-width: 250px;
+}
+
+.vchat-panel {
+  position: fixed; right: 20px; bottom: 20px; z-index: 10000;
+  width: 372px; max-width: calc(100vw - 32px); height: 540px; max-height: calc(100vh - 120px);
+  display: flex; flex-direction: column;
+  background: #0a0f1d; border: 1px solid #1e2a45; border-radius: 16px;
+  box-shadow: 0 12px 48px rgba(0,0,0,.6); overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.vchat-header {
+  display: flex; justify-content: space-between; align-items: center;
+  background: #101a30; padding: 14px 16px; border-bottom: 1px solid #1e2a45;
+}
+.vchat-id { display: flex; align-items: center; gap: 10px; }
+.vchat-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, #3ddc84, #22b867); color: #06130b; font-weight: 800; font-size: 17px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.vchat-title { color: #f2f6ff; font-weight: 700; font-size: 16px; }
+.vchat-sub { color: #3ddc84; font-size: 12px; margin-top: 2px; }
+.vchat-close { background: none; border: none; color: #8b98b8; font-size: 26px; cursor: pointer; line-height: 1; padding: 0 2px; }
+.vchat-close:hover { color: #f2f6ff; }
+
+.vchat-msgs { flex: 1; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+.vchat-msg { max-width: 82%; padding: 10px 13px; border-radius: 14px; font-size: 14.5px; line-height: 1.45; word-wrap: break-word; }
+.vchat-ai { background: #16213a; color: #f2f6ff; border-bottom-left-radius: 4px; align-self: flex-start; }
+.vchat-you { background: #3ddc84; color: #06130b; border-bottom-right-radius: 4px; align-self: flex-end; }
+.vchat-typing { letter-spacing: 3px; }
+
+/* Checkout CTA: a real tappable button inside the chat window. */
+.vchat-ctawrap { background: none; padding: 0; max-width: 100%; }
+.vchat-cta {
+  display: block; text-align: center; text-decoration: none;
+  background: #3ddc84; color: #06130b;
+  font-weight: 700; font-size: 15px; line-height: 1.3;
+  border-radius: 12px; padding: 13px 16px;
+  box-shadow: 0 4px 18px rgba(61,220,132,.35);
+  -webkit-tap-highlight-color: transparent;
+}
+.vchat-cta:hover { filter: brightness(1.06); }
+.vchat-cta:active { transform: scale(.98); }
+
+.vchat-quick { display: flex; gap: 8px; padding: 0 14px 10px; flex-wrap: wrap; }
+.vchat-quick button {
+  background: none; border: 1px solid #3ddc84; color: #3ddc84; border-radius: 999px;
+  padding: 7px 12px; font-size: 13px; cursor: pointer;
+}
+.vchat-quick button:hover { background: rgba(61,220,132,.12); }
+
+.vchat-inputrow { display: flex; gap: 8px; padding: 12px 14px; border-top: 1px solid #1e2a45; }
+.vchat-input {
+  flex: 1; background: #16213a; border: 1px solid #1e2a45; border-radius: 999px;
+  color: #f2f6ff; padding: 11px 15px; font-size: 14.5px; outline: none;
+}
+.vchat-input:focus { border-color: #3ddc84; }
+.vchat-send {
+  background: #3ddc84; color: #06130b; border: none; border-radius: 50%;
+  width: 42px; height: 42px; font-size: 17px; cursor: pointer; flex-shrink: 0;
+}
+.vchat-send:hover { filter: brightness(1.06); }
+
+@media (max-width: 480px) {
+  .vchat-panel { right: 12px; left: 12px; bottom: 12px; width: auto; max-width: none; max-height: calc(100vh - 60px); }
+  .vchat-bubble { right: 14px; bottom: 14px; }
+  .vchat-bubble-label { display: none; }
+  .vchat-bubble { padding: 15px; }
+  .vchat-teaser { right: 14px; bottom: 76px; }
+}

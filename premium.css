@@ -1,0 +1,202 @@
+/* ============================================================
+   Vellops — Premium Feel Layer  (2026-10-27)
+   Presentation-only override stylesheet. Loaded AFTER each
+   page's inline styles; changes look & feel only — no copy,
+   no prices, no claims, no layout structure.
+   ============================================================ */
+
+/* ---------- Palette & tokens (refined, unified) ---------- */
+:root{
+  --bg:#0a0f1d;
+  --bg2:#0d1730;
+  --card:#121e37;
+  --line:#27365c;
+  --ink:#f4f7ff;
+  --muted:#aab9d6;
+  --accent:#3ddc84;
+  --accent-d:#25bd68;
+  --gold:#ffc65c;
+  --radius:16px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+
+/* ---------- Typography ---------- */
+body{
+  font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  letter-spacing:-.011em;
+  line-height:1.65;
+  background:
+    radial-gradient(1100px 520px at 50% -140px, rgba(43,80,160,.20), rgba(43,80,160,0) 62%),
+    var(--bg);
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,.logo,.sec-title,.price .amt,.article .stat .num{
+  font-family:"Manrope","Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:-.028em;
+}
+h1{line-height:1.08}
+h2,h3{line-height:1.2}
+.lede{line-height:1.68}
+.sec-sub,.sub{line-height:1.68}
+.article p,.article li{line-height:1.78}
+::selection{background:rgba(61,220,132,.30);color:#fff}
+html{scroll-behavior:smooth}
+
+/* ---------- Focus & scrollbars ---------- */
+:focus-visible{outline:2px solid rgba(61,220,132,.65);outline-offset:2px;border-radius:4px}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:#0a0f1d}
+::-webkit-scrollbar-thumb{background:#22335e;border-radius:8px;border:2px solid #0a0f1d}
+::-webkit-scrollbar-thumb:hover{background:#2e4479}
+
+/* ---------- Announcement bar ---------- */
+.announce{
+  background:linear-gradient(90deg,#ffcf6e,#ffc24b 45%,#ffcf6e);
+  box-shadow:inset 0 -1px 0 rgba(120,80,0,.25);
+  letter-spacing:.005em;
+}
+
+/* ---------- Nav ---------- */
+nav{
+  background:rgba(9,14,27,.80);
+  -webkit-backdrop-filter:blur(16px) saturate(1.5);
+  backdrop-filter:blur(16px) saturate(1.5);
+  border-bottom:1px solid rgba(130,160,230,.14);
+}
+.logo{letter-spacing:-.02em}
+.nav-links a.nl{transition:color .2s var(--ease)}
+.btn{
+  background:linear-gradient(180deg,#4fe892 0%,#2fc873 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35), inset 0 -1px 0 rgba(0,60,30,.18), 0 12px 26px -10px rgba(61,220,132,.50);
+  border-radius:12px;
+  transition:transform .25s var(--ease), box-shadow .25s var(--ease), background .25s var(--ease), border-color .25s var(--ease), color .25s var(--ease);
+  letter-spacing:-.01em;
+}
+.btn:hover{
+  background:linear-gradient(180deg,#5df09c 0%,#34d279 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.4), 0 18px 34px -10px rgba(61,220,132,.55);
+  transform:translateY(-2px);
+}
+.btn:active{transform:translateY(0)}
+.btn-ghost{
+  background:rgba(255,255,255,.03);
+  border-color:#2d4069;
+  box-shadow:none;
+}
+.btn-ghost:hover{
+  background:rgba(61,220,132,.06);
+  border-color:rgba(61,220,132,.55);
+  box-shadow:none;
+}
+
+/* ---------- Hero ---------- */
+.hero{
+  background:
+    radial-gradient(880px 460px at 50% -90px, rgba(46,86,170,.50), rgba(46,86,170,0) 68%),
+    radial-gradient(560px 300px at 86% -20px, rgba(61,220,132,.08), rgba(61,220,132,0) 60%),
+    radial-gradient(560px 300px at 12% -20px, rgba(255,198,92,.05), rgba(255,198,92,0) 60%);
+}
+.badge{
+  background:rgba(61,220,132,.08);
+  border-color:rgba(61,220,132,.38);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06), 0 6px 18px -8px rgba(61,220,132,.45);
+  letter-spacing:.13em;
+  font-size:.72rem;
+  text-transform:uppercase;
+  padding:7px 16px;
+}
+h1 .hl{
+  background:linear-gradient(92deg,#3ddc84 10%,#7bf0b2 55%,#3ddc84 95%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  color:transparent;
+}
+
+/* ---------- Sections ---------- */
+section{padding:70px 0}
+.sec-title{letter-spacing:-.026em}
+
+/* ---------- Cards & surfaces ---------- */
+.card,.trust-item,.panel,.price,.step,.fine,.receipt,.guarantee,
+ol.steps li,.faq details,.article .stat .box{
+  background-image:linear-gradient(180deg, rgba(255,255,255,.040), rgba(255,255,255,0) 58%);
+  border-color:#27365c;
+  box-shadow:0 1px 2px rgba(2,6,18,.35), 0 16px 36px -18px rgba(2,6,18,.60);
+}
+.guarantee{box-shadow:0 10px 26px -14px rgba(255,198,92,.35)}
+.chat{
+  background:linear-gradient(180deg,#0c1428,#0a101f);
+  border-color:#2a3c66;
+  box-shadow:0 30px 70px -18px rgba(0,0,0,.65), 0 0 0 1px rgba(120,160,240,.05), 0 0 90px -30px rgba(61,220,132,.25);
+}
+.video-frame{box-shadow:0 34px 80px -20px rgba(0,0,0,.70);border-color:#2a3c66}
+@media (hover:hover) and (pointer:fine){
+  .card,.trust-item,.faq details{transition:transform .35s var(--ease), border-color .35s var(--ease), box-shadow .35s var(--ease)}
+  .card:hover,.trust-item:hover{
+    transform:translateY(-3px);
+    border-color:rgba(61,220,132,.40);
+    box-shadow:0 2px 3px rgba(2,6,18,.35), 0 24px 44px -18px rgba(2,6,18,.7);
+  }
+  .faq details:hover{border-color:rgba(130,160,230,.4)}
+}
+
+/* ---------- Pricing ---------- */
+.price{border-radius:20px;padding:36px 30px}
+.price.hot{
+  border-color:var(--accent);
+  background-image:linear-gradient(180deg, rgba(61,220,132,.075), rgba(61,220,132,0) 55%);
+  box-shadow:0 0 0 1px var(--accent), 0 30px 64px -20px rgba(61,220,132,.38);
+}
+.price .tag{box-shadow:0 8px 20px -6px rgba(61,220,132,.55);padding:5px 16px}
+.price .amt{font-size:2.6rem}
+.price ul li::before{color:var(--accent)}
+
+/* ---------- Comparison table ---------- */
+.compare th{letter-spacing:.09em;font-size:.78rem}
+.compare td,.compare th{padding:16px 14px}
+.compare tbody tr{transition:background .2s var(--ease)}
+.compare tbody tr:hover{background:rgba(255,255,255,.025)}
+
+/* ---------- FAQ ---------- */
+.faq summary{transition:color .2s var(--ease)}
+.faq summary:hover{color:var(--accent)}
+.faq details[open]{border-color:rgba(61,220,132,.35)}
+
+/* ---------- Final CTA ---------- */
+.final{
+  background:
+    radial-gradient(700px 360px at 50% 130%, rgba(46,86,170,.45), rgba(46,86,170,0) 70%),
+    var(--bg2);
+}
+.promise{box-shadow:0 10px 26px -12px rgba(61,220,132,.45)}
+
+/* ---------- Forms ---------- */
+input,select,textarea{transition:border-color .2s var(--ease), box-shadow .2s var(--ease), background .2s var(--ease)}
+input:focus,select:focus,textarea:focus{box-shadow:0 0 0 3px rgba(61,220,132,.16)}
+.plan,.radio-card{transition:border-color .25s var(--ease), box-shadow .25s var(--ease), background .25s var(--ease)}
+@media (hover:hover) and (pointer:fine){
+  .plan:hover,.radio-card:hover{border-color:rgba(61,220,132,.55)}
+}
+.plan.sel,.radio-card.sel{box-shadow:0 0 0 1px var(--accent), 0 14px 30px -14px rgba(61,220,132,.35)}
+
+/* ---------- Success page ---------- */
+.check{
+  background:linear-gradient(180deg,#4fe892,#2fc873);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.4), 0 20px 44px -12px rgba(61,220,132,.55);
+}
+.step.now{box-shadow:0 0 0 1px var(--gold), 0 16px 36px -16px rgba(255,198,92,.4)}
+
+/* ---------- Footer ---------- */
+footer{letter-spacing:.002em}
+footer a{transition:color .2s var(--ease)}
+footer a:hover{color:var(--ink)}
+
+/* ---------- Scroll reveal (JS adds .rv only below the fold) ---------- */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .8s ease, transform .8s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none;transition:none}
+  .btn,.card,.trust-item{transition:none}
+}

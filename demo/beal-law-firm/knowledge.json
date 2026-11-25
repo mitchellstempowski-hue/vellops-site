@@ -1,0 +1,103 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Beal Law Firm, PLLC. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2.",
+  "accent_color": "#1e3a5f",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (817) 261-4333 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Beal Law Firm, PLLC",
+  "client_id": "beal-law-firm",
+  "demo_chips": ["How much does a consultation cost?", "How do I book a consultation?", "What are your hours?"],
+  "contact": {
+    "email": "lawyers@dfwdivorce.com",
+    "phone": "(817) 261-4333"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Beal Law Firm, PLLC at (817) 261-4333 or lawyers@dfwdivorce.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Is there a cost to call the office just to see if you can help me?",
+      "a": "No - call or write to us anytime for a free evaluation.",
+      "keywords": [
+        "cost to call",
+        "free evaluation",
+        "call the office",
+        "charge to call"
+      ]
+    },
+    {
+      "q": "Why is there a fee for an initial consultation?",
+      "a": "Our consultations are with licensed attorneys, last an hour or more, and are not a sales pitch - you leave with real legal guidance on your situation.",
+      "keywords": [
+        "why is there a fee",
+        "free consultation",
+        "consultation fee why"
+      ]
+    },
+    {
+      "q": "Do you offer after-hours or weekend consultations?",
+      "a": "Yes - including early mornings, evenings, nights and weekends by arrangement. Payment is required at booking and a small additional charge may apply.",
+      "keywords": [
+        "after-hours",
+        "after hours",
+        "weekend",
+        "evening",
+        "night consultation"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Beal Law Firm assistant - happy to help with divorce, custody, support, or consultation and fee questions.",
+  "hours": "The initial call and evaluation are free, and consultations can be arranged early morning, evenings, nights and weekends - call (817) 261-4333 to set a time.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Beal Law Firm, PLLC - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Beal Law Firm, PLLC! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Beal Law Firm, PLLC team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Beal Law Firm, PLLC team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (817) 261-4333.",
+  "location": "2920 West Southlake Boulevard, Southlake, TX 76092 - handling cases throughout Texas, with offices serving Southlake, Dallas, Fort Worth and Frisco",
+  "pricing": {
+    "summary": "The initial call and evaluation are free. An initial consultation of up to one hour with a Senior Associate Attorney is $95, and in most cases an initial fee of $2,500-$7,500 is required to begin work. Visa, MasterCard and Discover are accepted."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Divorce",
+      "description": "Uncontested, contested and collaborative divorce."
+    },
+    {
+      "name": "Child custody & support",
+      "description": "Custody (SAPCR), unique possession schedules and child support."
+    },
+    {
+      "name": "Alimony & spousal support",
+      "description": "Alimony and support matters."
+    },
+    {
+      "name": "Property division",
+      "description": "Post-divorce property division and enforcement."
+    },
+    {
+      "name": "Pre & post-marital agreements",
+      "description": "Prenuptial and post-marital agreements."
+    },
+    {
+      "name": "Adoption",
+      "description": "Step-parent and adult adoption."
+    },
+    {
+      "name": "Military family law",
+      "description": "Family law for military families."
+    },
+    {
+      "name": "Grandparent rights",
+      "description": "Grandparent rights cases."
+    }
+  ],
+  "tagline": "Texas family law - divorce, custody and support",
+  "website": "https://www.dfwdivorce.com/"
+}

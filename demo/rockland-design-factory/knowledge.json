@@ -1,0 +1,94 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Rockland Design Factory. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2 reserves.",
+  "accent_color": "#6b4226",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (845) 682-3076 to schedule a consultation, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Rockland Design Factory",
+  "client_id": "rockland-design-factory",
+  "demo_chips": ["How much does a kitchen remodel cost?", "How do I get a free estimate?", "What are your hours?"],
+  "contact": {
+    "email": "rocklanddesignfactory@gmail.com",
+    "phone": "(845) 682-3076"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Rockland Design Factory at (845) 682-3076 or rocklanddesignfactory@gmail.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Can I buy cabinets without a remodeling contract?",
+      "a": "Yes. You can buy kitchen cabinets and use your own contractor or installer. We confirm final dimensions, cabinet specifications, delivery, and installation responsibility in writing.",
+      "keywords": [
+        "buy cabinets",
+        "cabinets only",
+        "without a contract",
+        "own contractor"
+      ]
+    },
+    {
+      "q": "What is your warranty?",
+      "a": "Our workmanship carries a 2-year warranty, and cabinetry carries a 10-year warranty.",
+      "keywords": [
+        "warranty",
+        "guarantee",
+        "workmanship"
+      ]
+    },
+    {
+      "q": "How long does a remodel take?",
+      "a": "Kitchen and bathroom remodeling typically take about 20 days each. Timing varies with scope, materials, approvals and site conditions, and we'll confirm your project's schedule before construction.",
+      "keywords": [
+        "how long",
+        "timeline",
+        "duration",
+        "take"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Rockland Design Factory assistant - happy to help with kitchen remodeling, bathroom remodeling, or cabinet questions.",
+  "hours": "Our Congers showroom is open Monday-Friday 8:30 AM-5:00 PM and Saturday 10:00 AM-3:00 PM; we're closed Sundays. Walk-ins are welcome - an appointment is generally not needed.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Rockland Design Factory - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Rockland Design Factory! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Rockland Design Factory team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Rockland Design Factory team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (845) 682-3076.",
+  "location": "Congers, New York - serving Rockland County NY, northern Bergen County NJ, and Westchester County NY",
+  "pricing": {
+    "summary": "Full kitchen remodels run $65,000-$110,000, and high-end kitchens (double island, natural stone) run $120,000-$220,000. Cabinets only, with no installation, start at $6,000. Full bathroom remodels run $21,000-$35,000, and a primary bath with a wet room runs $28,000-$55,000. Every final price is set by a written estimate after a consultation - and project estimates are free."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Complete kitchen remodeling",
+      "description": "Full kitchen renovations - layout, cabinets, surfaces and installation handled together."
+    },
+    {
+      "name": "Complete bathroom remodeling",
+      "description": "From tub-to-shower conversions and vanity updates to full bathroom renovations, including wet-area waterproofing."
+    },
+    {
+      "name": "Kitchen cabinets & design",
+      "description": "Fully custom and semi-custom cabinetry, sold with a remodel or on their own."
+    },
+    {
+      "name": "Countertops & tile",
+      "description": "Countertop, tile and hardware selections at the Congers showroom."
+    },
+    {
+      "name": "3D design & consultations",
+      "description": "3D design as part of the project consultation and design process."
+    },
+    {
+      "name": "Free project estimates",
+      "description": "Free project estimates for prospective remodeling customers."
+    }
+  ],
+  "tagline": "Kitchen & bath remodeling and cabinets in Rockland County",
+  "website": "https://rocklanddesignfactory.com/"
+}

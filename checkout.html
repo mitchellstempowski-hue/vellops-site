@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout — Vellops</title>
+<meta name="description" content="Get your Vellops AI website chatbot: plans $397/$497/$597 a month, no setup fee. No contract — cancel by reply. Or start with a free 14-day live trial.">
+<style>
+:root{
+  --bg:#0b1220; --bg2:#0f1a30; --card:#131f38; --line:#22304f;
+  --ink:#f2f6ff; --muted:#a7b4cf;
+  --accent:#3ddc84; --accent-d:#22b867; --gold:#ffc24b;
+  --radius:14px; --max:1080px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:50;background:rgba(11,18,32,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:var(--max);margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{font-size:1.35rem;font-weight:800;letter-spacing:.3px;text-decoration:none;color:var(--ink)}
+.logo span{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:#06130b;font-weight:700;text-decoration:none;padding:13px 26px;border-radius:10px;font-size:1rem;transition:.15s;border:none;cursor:pointer}
+.btn:hover{background:var(--accent-d);transform:translateY(-1px)}
+.btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+h1{font-size:clamp(1.8rem,4.4vw,2.6rem);font-weight:800;margin:40px 0 8px;text-align:center}
+.sub{text-align:center;color:var(--muted);max-width:640px;margin:0 auto 34px}
+.checkout{display:grid;grid-template-columns:1.25fr 1fr;gap:22px;max-width:980px;margin:0 auto 70px;align-items:start}
+@media(max-width:820px){.checkout{grid-template-columns:1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+.panel h2{font-size:1.15rem;margin-bottom:18px}
+.plan-pick{display:grid;gap:12px;margin-bottom:8px}
+.plan{border:1px solid var(--line);border-radius:12px;padding:16px 18px;cursor:pointer;display:flex;gap:14px;align-items:flex-start;transition:.15s;background:#0d1628}
+.plan:hover{border-color:var(--accent-d)}
+.plan.sel{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.plan input{margin-top:5px;accent-color:var(--accent)}
+.plan b{font-size:1.05rem}
+.plan .p{color:var(--muted);font-size:.9rem}
+.plan .amt{margin-left:auto;font-weight:800;font-size:1.25rem;white-space:nowrap}
+.plan .amt small{color:var(--muted);font-weight:400;font-size:.8rem}
+.founding{margin-top:16px;border:1px dashed var(--gold);border-radius:12px;padding:14px 16px;display:flex;gap:12px;align-items:flex-start;font-size:.92rem;color:var(--muted)}
+.founding input{margin-top:4px;accent-color:var(--gold)}
+.founding strong{color:var(--gold)}
+.bump{margin:16px 0 4px;border:1px dashed var(--accent-d);border-radius:12px;padding:14px 16px;display:flex;gap:12px;align-items:flex-start;font-size:.92rem;color:var(--muted);cursor:pointer;transition:.15s}
+.bump:hover{border-color:var(--accent)}
+.bump input{margin-top:4px;accent-color:var(--accent);width:18px;height:18px;flex:none}
+.bump strong{color:var(--ink)}
+.bump .bamt{margin-left:auto;font-weight:800;color:var(--ink);white-space:nowrap}
+label.f{display:block;font-size:.9rem;font-weight:600;margin-bottom:14px}
+label.f input,label.f select{width:100%;margin-top:6px;background:#0a0f1d;border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:13px 14px;font-size:1rem;font-family:inherit}
+label.f input:focus,label.f select:focus{outline:none;border-color:var(--accent)}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.frow{grid-template-columns:1fr}}
+.summary{position:sticky;top:80px}
+@media(max-width:820px){.summary{position:static}}
+.srow{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.srow span:last-child{font-weight:700;white-space:nowrap}
+.srow.total{border-bottom:none;font-size:1.1rem;padding-top:16px}
+.srow.total span:last-child{color:var(--accent);font-size:1.35rem}
+.snote{color:var(--muted);font-size:.85rem;margin-top:12px}
+.terms{display:flex;gap:12px;align-items:flex-start;margin:20px 0;font-size:.92rem;color:var(--muted)}
+.terms input{margin-top:4px;accent-color:var(--accent);width:18px;height:18px;flex:none}
+.terms a{color:var(--accent)}
+.terms strong{color:var(--ink)}
+.err{background:rgba(255,90,90,.1);border:1px solid #ff5a5a;color:#ffb3b3;border-radius:10px;padding:12px 16px;margin-bottom:16px;font-size:.92rem;display:none}
+.secure{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-size:.85rem;margin-top:14px}
+footer{border-top:1px solid var(--line);padding:28px 20px;text-align:center;color:var(--muted);font-size:.85rem}
+footer a{color:var(--muted)}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/premium.css?v=20261027a">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="index.html">Vell<span>ops</span></a>
+    <a class="btn btn-ghost" href="index.html" style="padding:10px 18px;font-size:.92rem">← Back</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <h1 id="page-h1">Get my AI chatbot</h1>
+  <p class="sub" id="page-sub">Start with a free 14-day live trial — $0 today, card required, and your first charge lands on day 15 only if you keep it. Or buy now and skip the trial. Either way: no setup fee, no contract, and your chatbot is live on your website in about 7 days — you approve every word it says before it goes live.</p>
+
+  <form id="checkout-form" action="https://api.vellops.com/create-checkout-session.php" method="post">
+    <div class="checkout">
+      <div>
+        <div class="panel" style="margin-bottom:22px">
+          <h2>1 · How do you want to start?</h2>
+          <div class="plan-pick">
+            <label class="plan sel" id="start-trial-card">
+              <input type="radio" name="start" value="trial" checked>
+              <div><b id="trial-title">Free 14-day live trial</b> — recommended<div class="p" id="trial-desc">We build and install your chatbot on your real website. $0 today; your card is saved and the first monthly charge lands on day 15, only if you keep it. Cancel by reply before then and you never pay a cent.</div></div>
+              <div class="amt">$0<small> today</small></div>
+            </label>
+            <label class="plan" id="start-buy-card">
+              <input type="radio" name="start" value="buy">
+              <div><b>Buy now</b><div class="p">Skip the trial. Your first month is charged today and your plan starts right away.</div></div>
+              <div class="amt">$<span id="start-buy-amt">497</span><small> today</small></div>
+            </label>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-bottom:22px">
+          <h2>2 · Choose your plan</h2>
+          <div class="plan-pick">
+            <label class="plan" id="plan-starter">
+              <input type="radio" name="plan" value="starter">
+              <div><b>Starter</b><div class="p">AI chatbot on your website, customer-service + sales conversations, lead capture, lead alerts by email, Monday report.</div></div>
+              <div class="amt">$397<small>/mo</small></div>
+            </label>
+            <label class="plan sel" id="plan-standard">
+              <input type="radio" name="plan" value="standard" checked>
+              <div><b>Standard — recommended</b><div class="p">Everything in Starter, plus calendar booking with email confirmations, and monthly chatbot tuning.</div></div>
+              <div class="amt">$497<small>/mo</small></div>
+            </label>
+            <label class="plan" id="plan-enhanced">
+              <input type="radio" name="plan" value="enhanced">
+              <div><b>Premium</b><div class="p">Everything in Standard, plus review requests and follow-up campaigns by email, a monthly strategy &amp; optimization review, faster tuning, priority support.</div></div>
+              <div class="amt">$597<small>/mo</small></div>
+            </label>
+            <label class="plan" id="plan-voice">
+              <input type="radio" name="plan" value="voice">
+              <div><b>Voice — AI phone answering</b><div class="p">A separate Vellops product: an AI receptionist on your business line. Answers inbound calls day and night, takes messages, qualifies callers, books by your rules, and emails you a summary of every call. Starts with a free 7-day pilot.</div></div>
+              <div class="amt">$247<small>/mo</small></div>
+            </label>
+          </div>
+          <p id="annual-note" style="color:var(--muted);font-size:.85rem;margin-top:14px"><strong style="color:var(--ink)">No setup fee</strong> — your first charge is your first month. Month-to-month, no contract. Prefer to pay yearly? Annual billing takes 2 months off your plan price ($3,970 / $4,970 / $5,970 a year) — tell us in the chat or by reply after checkout and we'll set it up.</p>
+        </div>
+
+        <div class="panel">
+          <h2>3 · Your details</h2>
+          <div class="err" id="form-err"></div>
+          <div class="frow">
+            <label class="f">Full name
+              <input type="text" name="name" required placeholder="Jane Smith" autocomplete="name">
+            </label>
+            <label class="f">Business name
+              <input type="text" name="business" required placeholder="Smith Plumbing Co." autocomplete="organization">
+            </label>
+          </div>
+          <div class="frow">
+            <label class="f">Email
+              <input type="email" name="email" required placeholder="jane@yourbusiness.com" autocomplete="email">
+            </label>
+            <label class="f">Phone
+              <input type="tel" name="phone" required placeholder="(555) 123-4567" autocomplete="tel">
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel summary">
+        <h2>Order summary</h2>
+        <div class="srow" id="sum-ref-banner" style="display:none;border:1px dashed var(--accent);border-radius:10px;padding:10px 14px;margin-bottom:6px"><span>🎉 Referral applied — $100 off your first month</span><span></span></div>
+        <div class="srow"><span id="sum-plan-name">Standard — monthly</span><span id="sum-plan-amt">$497.00</span></div>
+        <div class="srow" id="sum-faq-row" style="display:none"><span>FAQ build — one-time</span><span>$149.00</span></div>
+        <div class="srow" id="sum-voice-row" style="display:none"><span>Voice answering — add-on</span><span>$100.00</span></div>
+        <div class="srow" id="sum-founding-row" style="display:none"><span id="sum-founding-name">Founding-3 — $197/mo, first 3 months</span><span id="sum-founding-amt">$197/mo</span></div>
+        <div class="srow total"><span>Due today</span><span id="sum-total">$497.00</span></div>
+        <p class="snote" id="sum-note">Due today is your first month. Then $497/month, billed monthly. No setup fee. No contract — cancel by reply; service runs to the end of your paid period.</p>
+
+        <p class="snote" id="guarantee-box" style="border:1px solid var(--accent-d);border-radius:10px;padding:12px 14px;color:var(--ink)"><strong>Our guarantee:</strong> live within 7 days and capturing every after-hours enquiry — or the month is free. And if the first 30 days book nothing, we refund the month. No form, no hassle.</p>
+
+        <label class="founding" id="founding-box" style="display:none">
+          <input type="checkbox" name="founding_claim" value="1" id="founding-check">
+          <span><strong>Founding-3 — <span id="founding-left">3</span> of 3 spots left.</strong> Our first 3 customers pay $197/mo for their first 3 months, then standard pricing for their plan, in exchange for an honest testimonial and letting us publish a short case study once their chatbot has been live about 30 days. Founding rate applies to Voice too — $147/mo for your first 3 months. Claim it here — your spot is confirmed when your trial starts.</span>
+        </label>
+
+        <p class="snote">Already a customer? Refer a business and get a month free when they sign up and pay. <a href="refer.html" style="color:var(--accent)">How referrals work</a></p>
+
+        <label class="bump">
+          <input type="checkbox" name="faq_build" value="1" id="faq-box">
+          <span><strong>Add a done-for-you FAQ build</strong> — we write/expand your website FAQ from your services &amp; prices so your chatbot launches with richer answers. <strong>One-time $149.</strong></span>
+        </label>
+
+        <label class="bump" id="voice-addon-bump">
+          <input type="checkbox" name="voice_addon" value="1" id="voice-addon-box">
+          <span><strong>Add Voice — AI phone answering</strong> — an AI receptionist on your business line: answers inbound calls day and night, takes messages, qualifies callers, books by your rules, and emails you a summary of every call. <strong>+$100/mo</strong> when added to a chatbot plan (it's $247/mo on its own).</span>
+        </label>
+
+        <label class="terms">
+          <input type="checkbox" name="agree_terms" value="1" id="agree-box" required>
+          <span id="terms-text">I agree to the <a href="terms-of-service.html" target="_blank" rel="noopener">Vellops Terms of Service</a>, including the <strong>guarantees</strong>: if the first 30 days book nothing, every charge for that period is refunded; if my chatbot is not live within 7 days of Vellops receiving the access it needs, or an after-hours enquiry goes uncaptured because the service failed, that month is free. There is no setup fee. Outside those guarantees, a monthly charge is refundable if you ask within 3 days of that charge.</span>
+        </label>
+
+        <button class="btn" type="submit" id="pay-btn" style="width:100%;font-size:1.1rem;padding:16px">Get my AI chatbot — secure checkout</button>
+        <div class="secure">🔒 Secure payment powered by Stripe</div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p>Vellops · <a href="mailto:mitchell@msecomllc.com">mitchell@msecomllc.com</a></p>
+    <p style="margin-top:8px"><a href="index.html">Home</a> · <a href="faq.html">FAQ</a> · <a href="terms-of-service.html">Terms of Service</a> · © 2026 Vellops. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var plans = {starter:{name:'Starter', monthly:397}, standard:{name:'Standard', monthly:497}, enhanced:{name:'Premium', monthly:597}, voice:{name:'Voice', monthly:247}};
+  var radios = document.querySelectorAll('input[name=plan]');
+  var agree = document.getElementById('agree-box');
+  var faqBox = document.getElementById('faq-box');
+  var btn = document.getElementById('pay-btn');
+  var err = document.getElementById('form-err');
+  var form = document.getElementById('checkout-form');
+  // Pay stays disabled until the customer agrees to the terms.
+  btn.disabled = true;
+  agree.addEventListener('change', function(){ btn.disabled = !agree.checked; render(); });
+  // Referral: carried from vellops.com/?ref=CODE via localStorage, or via
+  // ?ref=CODE / ?plan=starter|standard|enhanced|premium directly on this page (chat CTA links).
+  var qs = {};
+  try { new URLSearchParams(location.search).forEach(function (v, k) { qs[k.toLowerCase()] = v; }); } catch (e) {}
+  if (/^[A-Z0-9]{2,8}-[A-Z0-9]{4}$/i.test(qs.ref || '')) {
+    try { localStorage.setItem('vellops_ref', String(qs.ref).toUpperCase()); } catch (e) {}
+  }
+  if (qs.plan === 'premium') qs.plan = 'enhanced';
+  if (qs.plan === 'starter' || qs.plan === 'standard' || qs.plan === 'enhanced' || qs.plan === 'voice') {
+    var qr = document.querySelector('input[name=plan][value="' + qs.plan + '"]');
+    if (qr) qr.checked = true;
+  }
+  var savedRef = '';
+  try { savedRef = (localStorage.getItem('vellops_ref') || '').toUpperCase(); } catch(e){}
+  if (!/^[A-Z0-9]{2,8}-[A-Z0-9]{4}$/.test(savedRef)) savedRef = '';
+  if (savedRef) {
+    var ri = document.createElement('input');
+    ri.type = 'hidden'; ri.name = 'ref_code'; ri.value = savedRef;
+    form.appendChild(ri);
+  }
+  function current(){ return document.querySelector('input[name=plan]:checked').value; }
+  function startMode(){ var s = document.querySelector('input[name=start]:checked'); return s ? s.value : 'buy'; }
+  var foundingCheck = document.getElementById('founding-check');
+  var addonBox = document.getElementById('voice-addon-box');
+  // Original chatbot wording, captured before any render() swap so the
+  // Voice selection can swap copy in and back out cleanly.
+  var CHAT_SUB = document.getElementById('page-sub').textContent;
+  var CHAT_TRIAL_DESC = document.getElementById('trial-desc').textContent;
+  var CHAT_GUARANTEE = document.getElementById('guarantee-box').innerHTML;
+  var CHAT_TERMS = document.getElementById('terms-text').innerHTML;
+  var VOICE_SUB = 'Start with a free 7-day pilot — $0 today, card required, and your first charge lands on day 8 only if you keep it. Or buy now and skip the pilot. Either way: no setup fee, no contract, and your answering line is live in about 7 days once we have your services, hours and booking rules.';
+  var VOICE_TRIAL_DESC = 'We set up your AI answering line — forward your existing number to it, or take a new local number from us. $0 today; your card is saved and the first monthly charge lands on day 8, only if you keep it. Cancel by email before then and you never pay a cent.';
+  var VOICE_GUARANTEE = '<strong>Our guarantee:</strong> live within 7 days of us receiving the access we need — and if a call to your business goes unanswered because the service failed, that month is free. No form, no hassle.';
+  var VOICE_TERMS = 'I agree to the <a href="terms-of-service.html" target="_blank" rel="noopener">Vellops Terms of Service</a>, including the <strong>guarantees</strong>: if my Voice answering service is not live within 7 days of Vellops receiving the access it needs, or a call to my business goes unanswered because the service failed, that month is free. There is no setup fee. Outside those guarantees, a monthly charge is refundable if you ask within 3 days of that charge.';
+  function render(){
+    var planKey = current();
+    var p = plans[planKey];
+    var isVoice = planKey === 'voice';
+    var trial = startMode() === 'trial';
+    var founding = !!(foundingCheck && foundingCheck.checked);
+    var refDisc = (!trial && savedRef && !founding) ? 100 : 0;
+    // No setup fee. The referral $100 comes off the first monthly charge
+    // (the server enforces the same math via a one-time coupon). A
+    // Founding-3 claim beats the referral discount: $197/mo for the first
+    // 3 paid months on chatbot plans, $147/mo on Voice (server enforces).
+    var foundingMo = isVoice ? 147 : 197;
+    var mo = founding ? foundingMo : (p.monthly - refDisc);
+    // The FAQ bump is buy-now chatbot only: in trial mode a one-time
+    // charge would land today and break the "$0 today" promise, and it
+    // is a chatbot extra, not a Voice one (server enforces too).
+    var faqOff = trial || isVoice;
+    if (faqOff && faqBox) { faqBox.checked = false; }
+    if (faqBox) { faqBox.disabled = faqOff; faqBox.closest('.bump').style.opacity = faqOff ? '.5' : '1'; }
+    var faq = (faqBox && faqBox.checked) ? 149 : 0;
+    // Voice add-on: chatbot plans only; it rides the same trial in trial
+    // mode ($0 today) and the first paid invoice in buy mode.
+    var addonBump = document.getElementById('voice-addon-bump');
+    if (addonBump) addonBump.style.display = isVoice ? 'none' : 'flex';
+    if (isVoice && addonBox) addonBox.checked = false;
+    var addon = (!isVoice && addonBox && addonBox.checked) ? 100 : 0;
+    document.getElementById('sum-voice-row').style.display = addon ? 'flex' : 'none';
+    document.getElementById('sum-faq-row').style.display = faq ? 'flex' : 'none';
+    document.getElementById('sum-founding-row').style.display = (foundingCheck && foundingCheck.checked) ? 'flex' : 'none';
+    document.getElementById('sum-founding-name').textContent = 'Founding-3 — $' + foundingMo + '/mo, first 3 months';
+    document.getElementById('sum-founding-amt').textContent = '$' + foundingMo + '/mo';
+    document.querySelectorAll('.plan').forEach(function(el){ el.classList.remove('sel'); });
+    document.getElementById('plan-'+current()).classList.add('sel');
+    document.getElementById('start-trial-card').classList.toggle('sel', trial);
+    document.getElementById('start-buy-card').classList.toggle('sel', !trial);
+    document.getElementById('start-buy-amt').textContent = p.monthly;
+    document.getElementById('sum-plan-name').textContent = trial
+      ? (isVoice ? 'Voice — 7-day free pilot' : (p.name + ' — 14-day free trial'))
+      : (p.name + ' — monthly');
+    document.getElementById('sum-plan-amt').textContent = trial ? '$0.00' : ('$' + mo.toFixed(2));
+    document.getElementById('sum-ref-banner').style.display = (!trial && savedRef && !founding) ? 'flex' : 'none';
+    document.getElementById('sum-total').textContent = '$' + ((trial ? 0 : mo) + faq + (trial ? 0 : addon)).toFixed(2);
+    // Voice selection swaps the page copy to the Voice product; any
+    // chatbot plan restores the original wording exactly.
+    document.getElementById('page-h1').textContent = isVoice ? 'Get Vellops Voice' : 'Get my AI chatbot';
+    document.getElementById('page-sub').textContent = isVoice ? VOICE_SUB : CHAT_SUB;
+    document.getElementById('trial-title').textContent = isVoice ? 'Free 7-day pilot' : 'Free 14-day live trial';
+    document.getElementById('trial-desc').textContent = isVoice ? VOICE_TRIAL_DESC : CHAT_TRIAL_DESC;
+    document.getElementById('guarantee-box').innerHTML = isVoice ? VOICE_GUARANTEE : CHAT_GUARANTEE;
+    document.getElementById('terms-text').innerHTML = isVoice ? VOICE_TERMS : CHAT_TERMS;
+    var annualNote = document.getElementById('annual-note');
+    if (annualNote) annualNote.style.display = isVoice ? 'none' : 'block';
+    var note;
+    if (trial) {
+      if (isVoice) {
+        note = 'Due today is $0. Your card is saved, and your first charge of $247 lands on day 8 — only if you keep Voice. Cancel by email before then and you never pay a cent. No setup fee, no contract.';
+        if (founding) note = 'Due today is $0. Founding-3 claimed: your first 3 monthly charges are $147 — the first lands on day 8, only if you keep Voice — then $247/month at standard pricing. Cancel by email anytime.';
+      } else {
+        note = 'Due today is $0. Your card is saved, and your first charge of $' + (p.monthly + addon) + ' lands on day 15 — only if you keep the chatbot. Cancel by reply before then and you never pay a cent. No setup fee, no contract.';
+        if (founding) note = 'Due today is $0. Founding-3 claimed: your first 3 monthly charges are $' + (197 + addon) + ' — the first lands on day 15, only if you keep the chatbot — then $' + (p.monthly + addon) + '/month at standard pricing. Cancel by reply anytime.';
+      }
+    } else {
+      if (isVoice) {
+        note = 'Due today is your first month. Then $247/month, billed monthly. No setup fee. No contract — cancel by email; service runs to the end of your paid period.';
+        if (founding) note = 'Founding-3 claimed: due today is $147 — your first 3 monthly charges are $147, then $247/month at standard pricing. No setup fee. No contract — cancel by email; service runs to the end of your paid period.';
+        else if (savedRef) note = 'Your first month is $' + mo + ' after your $100 referral discount. ' + note;
+      } else {
+        note = 'Due today is your first month' + (faq ? ' plus the one-time FAQ build' : '') + (addon ? ' plus Voice answering' : '') + '. Then $' + (p.monthly + addon) + '/month, billed monthly. No setup fee. No contract — cancel by reply; service runs to the end of your paid period.';
+        if (founding) note = 'Founding-3 claimed: due today is $' + (197 + addon) + (faq ? ' plus the one-time FAQ build' : '') + ' — your first 3 monthly charges are $' + (197 + addon) + ', then $' + (p.monthly + addon) + '/month at standard pricing. No setup fee. No contract — cancel by reply; service runs to the end of your paid period.';
+        else if (savedRef) note = 'Your first month is $' + mo + ' after your $100 referral discount. ' + note;
+      }
+    }
+    document.getElementById('sum-note').textContent = note;
+    if (agree.checked) btn.textContent = trial
+      ? (isVoice ? 'Start my 7-day pilot — $0 today' : 'Start my free trial — $0 today')
+      : (isVoice ? 'Get Vellops Voice — secure checkout' : 'Get my AI chatbot — secure checkout');
+  }
+  radios.forEach(function(r){ r.addEventListener('change', render); });
+  document.querySelectorAll('input[name=start]').forEach(function(r){ r.addEventListener('change', render); });
+  if (faqBox) faqBox.addEventListener('change', render);
+  if (addonBox) addonBox.addEventListener('change', render);
+  if (foundingCheck) foundingCheck.addEventListener('change', render);
+  // Founding-3 availability (display only — the server enforces the slots).
+  try {
+    fetch('https://api.vellops.com/founding-status.php', {cache:'no-store'}).then(function(r){ return r.json(); }).then(function(j){
+      if (j && j.founding_available) {
+        document.getElementById('founding-left').textContent = j.slots_left;
+        document.getElementById('founding-box').style.display = 'flex';
+      }
+    }).catch(function(){});
+  } catch(e) {}
+  render();
+  document.getElementById('checkout-form').addEventListener('submit', function(e){
+    if (!agree.checked) {
+      e.preventDefault();
+      err.style.display = 'block';
+      err.textContent = 'Please check the box to agree to the Terms of Service before checking out.';
+      agree.focus();
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = 'Starting secure checkout…';
+  });
+})();
+</script>
+
+<link rel="stylesheet" href="/chat-widget.css?v=20261030a">
+<script src="/chat-widget.js?v=20261030a" defer></script>
+<img src="https://api.vellops.com/track.php?p=checkout" alt="" width="1" height="1" style="position:absolute;width:1px;height:1px;" aria-hidden="true">
+<!-- RB2B-PIXEL v1: visitor identification (see /privacy-policy.html). Skipped when the browser sends a Global Privacy Control signal. -->
+<script>if (navigator.globalPrivacyControl !== true) {!function(key) {if (window.reb2b) return;window.reb2b = {loaded: true};var s = document.createElement("script");s.async = true;s.src = "https://ddwl4m2hdecbv.cloudfront.net/b/" + key + "/" + key + ".js.gz";document.getElementsByTagName("script")[0].parentNode.insertBefore(s, document.getElementsByTagName("script")[0]);}("XOE9GH3021OM");}</script>
+</body>
+</html>

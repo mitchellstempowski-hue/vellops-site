@@ -1,0 +1,108 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for NorthEast Heating & Cooling. Facts harvested from the business's own website on 2026-11-04. Preview/demo use only - Vellops Demo Drop Partner Batch (Designer Pilots).",
+  "accent_color": "#1f3a5f",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Call (959) 595-2327 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null
+  },
+  "business_name": "NorthEast Heating & Cooling",
+  "client_id": "northeast-heating-cooling",
+  "contact": {
+    "email": "office@northeastcthvac.com",
+    "phone": "(959) 595-2327"
+  },
+  "demo_chips": [
+    "How much does a maintenance plan cost?",
+    "How do I get started?",
+    "What are your hours?"
+  ],
+  "fallback": "Great question - I don't want to guess on that one. You can reach NorthEast Heating & Cooling at (959) 595-2327 or office@northeastcthvac.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "a": "No. Maintenance plans are offered only on qualifying new systems installed by NorthEast Heating & Cooling. The Northeast Comfort Collection has three levels - Horizon at $199/year, Elevate at $349/year and Summit at $449/year - and oil-fired boilers and furnaces are covered by the separate Oil Heat Complete Care plan at $449/year.",
+      "keywords": [
+        "maintenance plan",
+        "new system",
+        "qualifying",
+        "eligibility",
+        "comfort collection"
+      ],
+      "q": "Are maintenance plans available on any system?"
+    },
+    {
+      "a": "NorthEast Heating & Cooling is a registered Energize CT heat pump installer, so eligible Eversource and UI customers can put a rebate toward a qualifying heat pump we install. Start with a free estimate, and you can optionally pre-verify your estimated rebate with Energize CT using our proposal.",
+      "keywords": [
+        "energize ct",
+        "heat pump rebate",
+        "rebate",
+        "eversource"
+      ],
+      "q": "Can I get an Energize CT heat pump rebate?"
+    },
+    {
+      "a": "Service and repair calls are currently limited to existing NorthEast customers. Call us at (959) 595-2327. For a new system, you can request a free in-home estimate.",
+      "keywords": [
+        "service call",
+        "repair call",
+        "existing customer",
+        "repair"
+      ],
+      "q": "Can anyone book a service or repair call?"
+    }
+  ],
+  "greeting": "Hi there! I'm the NorthEast Heating & Cooling assistant - happy to help with heating, cooling, hot water, or maintenance plan questions.",
+  "handoff_ask": "Of course - happy to pass this to the team at NorthEast Heating & Cooling! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the NorthEast Heating & Cooling team with your email - they'll email you shortly.",
+  "handoff_mode": "owner_text",
+  "hours": "NorthEast Heating & Cooling doesn't publish regular office hours on its website - call (959) 595-2327 or email office@northeastcthvac.com and the team will help.",
+  "identity_reply": "I'm the AI assistant for NorthEast Heating & Cooling - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the NorthEast Heating & Cooling team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (959) 595-2327.",
+  "location": "Bethany, Connecticut - serving all of Connecticut",
+  "pricing": {
+    "summary": "Maintenance plan pricing is published: Northeast Horizon is $199 per year (1 visit a year, 5% off repairs), Northeast Elevate is $349 per year (2 visits a year, priority scheduling, 10% off), Northeast Summit is $449 per year (2 visits a year, 15% off, $100 diagnostic fee), and the Oil Heat Complete Care annual cleaning plan is $449 per year. Annual pricing covers one standard residential HVAC system, and plans are offered only on qualifying new systems installed by NorthEast."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "description": "Energy-efficient heating sized for your home, installed safely for lower energy bills and long-term reliability.",
+      "name": "Furnace & Boiler Installation"
+    },
+    {
+      "description": "AC and heat pump systems matched to your home, installed precisely and tested for year-round comfort and lower utility costs.",
+      "name": "AC & Heat Pump Installation"
+    },
+    {
+      "description": "Removal of your old unit and installation of a quality, energy-efficient water heater that fits your household and budget.",
+      "name": "Water Heater Replacement"
+    },
+    {
+      "description": "Well-designed ducts for even airflow, better indoor air and lower energy use, for new construction and upgrades.",
+      "name": "Ductwork Installation"
+    },
+    {
+      "description": "As a registered Energize CT heat pump installer, NorthEast helps eligible homeowners put a rebate toward a qualifying heat pump installation.",
+      "name": "Energize CT Heat Pump Rebates"
+    },
+    {
+      "description": "Three levels of preventative maintenance for new NorthEast installations, plus the Oil Heat Complete Care annual cleaning plan.",
+      "name": "Maintenance Plans"
+    },
+    {
+      "description": "Rooftop units, chillers, ductwork and gas and oil systems installed to code for businesses across Connecticut.",
+      "name": "Commercial HVAC Installation"
+    },
+    {
+      "description": "Walk-in coolers, freezers and display cases for restaurants, grocery stores, warehouses and commercial kitchens.",
+      "name": "Commercial Refrigeration Installation"
+    }
+  ],
+  "tagline": "Heating, Cooling & Hot Water",
+  "website": "https://www.northeastcthvac.com/"
+}

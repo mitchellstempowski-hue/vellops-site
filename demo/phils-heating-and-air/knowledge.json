@@ -1,0 +1,113 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Phil's Heating and Air. Facts harvested from the business's own website on 2026-10-26. Preview/demo use only - Vellops Demo Drop Batch 1.",
+  "accent_color": "#b91c1c",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (423) 741-5459 to schedule your HVAC Assessment, or leave your details here and we'll follow up.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Phil's Heating and Air",
+  "client_id": "phils-heating-and-air",
+  "demo_chips": ["How much does a new HVAC system cost?", "How do I schedule an HVAC assessment?", "What are your hours?"],
+  "contact": {
+    "email": "philsheatair@gmail.com",
+    "phone": "(423) 741-5459"
+  },
+  "fallback": "Great question - I don't want to guess on that one. Call us at (423) 741-5459 or email philsheatair@gmail.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "What is a Diagnostic HVAC Assessment?",
+      "a": "It's a comprehensive review of your HVAC system - every component, wiring, and your ventilation system - to make sure everything is functional. It's recommended every 3-6 months to avoid costly repairs or replacements.",
+      "keywords": [
+        "diagnostic",
+        "assessment",
+        "review"
+      ]
+    },
+    {
+      "q": "What rebates are available?",
+      "a": "There's a combined rebate of up to $2,800 on qualifying energy-efficient Amana systems - up to $800 from TVA plus up to $2,000 from the U.S. Government; qualification depends on specific criteria. TVA rebates can also apply to qualifying heat pumps and mini-split systems, and even certain repairs.",
+      "keywords": [
+        "rebate",
+        "tva",
+        "2800",
+        "$2,800",
+        "government"
+      ]
+    },
+    {
+      "q": "How can a mini-split help my home?",
+      "a": "Mini-splits offer flexible heating and cooling, especially for homes without ductwork. They're energy-efficient and allow zone control, so you can set different temperatures in different areas.",
+      "keywords": [
+        "mini-split",
+        "mini split",
+        "ductless",
+        "zone"
+      ]
+    },
+    {
+      "q": "Do you offer financing?",
+      "a": "Yes - low monthly payment financing options are available, including GreenSky financing with $0 down, 0% interest and 0 payments for 12 months, as advertised on our site.",
+      "keywords": [
+        "financing",
+        "greensky",
+        "payment options",
+        "monthly payment"
+      ]
+    },
+    {
+      "q": "What warranty do you offer?",
+      "a": "We stand behind our service with excellent parts and labor warranties, including 12-year parts & labor warranties.",
+      "keywords": [
+        "warranty",
+        "guarantee"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Phil's Heating and Air assistant - ask me about AC, heating, heat pumps, financing, or our same-day service.",
+  "hours": "Office hours: Monday-Friday, 9:00 AM - 5:00 PM (closed weekends) - and 24/7 emergency service is always available at (423) 741-5459.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Phil's Heating and Air - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Phil's Heating and Air! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Phil's Heating and Air team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Phil's Heating and Air team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (423) 741-5459.",
+  "location": "Gray, Tennessee - 104 Center Street - serving Johnson City, Bristol, Kingsport and the Tri-Cities region of Northeast Tennessee",
+  "pricing": {
+    "summary": "We offer competitive pricing and a free estimate to get started - no flat prices are published because every system is different. Financing includes $0 down, 0% interest and 0 payments for 12 months through GreenSky, and qualifying systems can stack TVA and government rebates up to $2,800 combined."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "AC repair & installation",
+      "description": "Air conditioning repair and installation, including Daikin systems."
+    },
+    {
+      "name": "Furnace services & heating repair",
+      "description": "Furnace service and heat pump repair to keep you comfortable year-round."
+    },
+    {
+      "name": "Heat pumps & mini-splits",
+      "description": "Energy-efficient heat pumps and mini-split units with zone control - great for homes without ductwork."
+    },
+    {
+      "name": "Preventative maintenance",
+      "description": "Maintenance solutions and Diagnostic HVAC Assessments to keep systems running smoothly."
+    },
+    {
+      "name": "Commercial & industrial HVAC",
+      "description": "Design, installation, maintenance and repair for commercial clients - 36+ years of commercial experience."
+    },
+    {
+      "name": "Indoor air quality",
+      "description": "Air quality assessments, ventilation and purifier solutions."
+    }
+  ],
+  "tagline": "HVAC experts for the Tri-Cities & Northeast Tennessee",
+  "website": "https://www.philsheatingandair.com/"
+}

@@ -1,0 +1,88 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Smile Design Center. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2 reserves.",
+  "accent_color": "#0e7490",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (603) 427-0043 to schedule your free consultation, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Smile Design Center",
+  "client_id": "smile-design-center",
+  "demo_chips": ["How much does a dental implant cost?", "How do I book a free consultation?", "What are your hours?"],
+  "contact": {
+    "email": "info@yoursmiledesign.com",
+    "phone": "(603) 427-0043"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Smile Design Center at (603) 427-0043 or info@yoursmiledesign.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Is the consultation really free?",
+      "a": "Yes. Your consultation is free and includes a 3D x-ray, so you leave with a clear, accurate treatment plan and price.",
+      "keywords": [
+        "free consultation",
+        "consult free",
+        "consultation cost"
+      ]
+    },
+    {
+      "q": "Do you offer a warranty?",
+      "a": "Yes - we offer a 5-year warranty on veneers, crowns, implants and implant bridges, along with flat, published pricing.",
+      "keywords": [
+        "warranty",
+        "guarantee"
+      ]
+    },
+    {
+      "q": "Do you offer financing?",
+      "a": "Yes. We accept CareCredit and offer monthly payment plans, and we'll take 10% off a comparable printed treatment plan from any other provider.",
+      "keywords": [
+        "financing",
+        "payment plans",
+        "carecredit",
+        "afford"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Smile Design Center assistant - happy to help with implant, veneer, or cosmetic dentistry questions.",
+  "hours": "We're open Monday-Thursday 8:00 AM-5:00 PM, and closed Friday-Sunday.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Smile Design Center - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Smile Design Center! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Smile Design Center team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Smile Design Center team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (603) 427-0043.",
+  "location": "Portsmouth, New Hampshire - serving the Seacoast & New England",
+  "pricing": {
+    "summary": "Your first implant - implant, abutment and a custom zirconia crown - is a flat $2,500, with published flat pricing and no surprises. Consultations are free and include a 3D x-ray. Veneers, crowns, implants and implant bridges carry a 5-year warranty. We accept CareCredit and offer monthly payment plans, and we will take 10% off a comparable printed treatment plan from another provider."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Dental implants",
+      "description": "Single implants with custom zirconia crowns, implant bridges, and extractions with bone grafting in the same visit - including our patented KAT implant system."
+    },
+    {
+      "name": "Fixed teeth on implants",
+      "description": "All-on-4 through All-on-6 full-arch bridges in layered or milled zirconia from our own lab, with flat pricing per arch."
+    },
+    {
+      "name": "Cosmetic dentistry",
+      "description": "Porcelain veneers and crowns, full-mouth reconstruction, and gum grafts - by New Hampshire's first and only AACD-accredited dentist."
+    },
+    {
+      "name": "Advanced surgical care",
+      "description": "Sinus grafts and bone grafting, tooth extractions including wisdom teeth, and gum surgery."
+    },
+    {
+      "name": "On-site dental lab",
+      "description": "Veneers, crowns, bridges and dentures crafted in-house - in as little as one day."
+    }
+  ],
+  "tagline": "Implants & cosmetic dentistry on the Seacoast",
+  "website": "https://yoursmiledesign.com/"
+}

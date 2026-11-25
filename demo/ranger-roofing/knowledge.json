@@ -1,0 +1,87 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Ranger Roofing & Construction. Facts harvested from the business's own website on 2026-10-27. Preview/demo use only - Vellops Demo Drop Batch 2.",
+  "accent_color": "#33546d",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (940) 320-7663 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Ranger Roofing & Construction",
+  "client_id": "ranger-roofing",
+  "demo_chips": ["How much does a roof replacement cost?", "How do I book a free inspection?", "What are your hours?"],
+  "contact": {
+    "email": "info@rangerroofingdfw.com",
+    "phone": "(940) 320-7663"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Ranger Roofing & Construction at (940) 320-7663 or info@rangerroofingdfw.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Can I stay home during the replacement?",
+      "a": "Yes - all the work happens outside. Just expect significant noise during tear-off and installation.",
+      "keywords": [
+        "stay home",
+        "during replacement",
+        "noise",
+        "stay in my house"
+      ]
+    },
+    {
+      "q": "How do I know if insurance will cover my roof?",
+      "a": "Storm damage from hail or wind is typically covered. We provide free inspections and can help you determine whether filing a claim is appropriate.",
+      "keywords": [
+        "insurance cover",
+        "insurance will",
+        "claim",
+        "hail damage cover"
+      ]
+    },
+    {
+      "q": "Do you pull permits?",
+      "a": "Yes - we pull the required permits and schedule inspections. You receive both the manufacturer warranty on materials (25-50 years) and our workmanship warranty.",
+      "keywords": [
+        "permit",
+        "permits",
+        "warranty",
+        "workmanship"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Ranger Roofing assistant - happy to help with roof replacement, repairs, storm damage, or pricing questions.",
+  "hours": "Mon-Fri: 8:00 AM - 5:00 PM, Sat: 8:00 AM - 12:00 PM, Sun: Closed. Emergency services available outside regular hours.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Ranger Roofing & Construction - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Ranger Roofing & Construction! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Ranger Roofing & Construction team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Ranger Roofing & Construction team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (940) 320-7663.",
+  "location": "Flower Mound, Texas - serving 38 cities across Denton, Dallas, Tarrant and Collin counties including Dallas, Fort Worth, Denton, Plano, Frisco, McKinney, Lewisville and Southlake",
+  "pricing": {
+    "summary": "Roof replacement in Dallas-Fort Worth typically costs between $11,000 and $25,000. Our published price table puts a 2,000 sq ft architectural shingle replacement at $8,500-$12,000 (metal $15,000-$22,000), with most typical 2,000 sq ft homes landing around $12,000-$15,000 once all factors are in. Inspections are free, and every replacement carries the manufacturer warranty (25-50 years) plus our workmanship warranty."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Roof replacement",
+      "description": "Full roof replacement in three-tab, architectural, Class 4 impact-resistant, metal and tile."
+    },
+    {
+      "name": "Roof repair & storm restoration",
+      "description": "Repairs and storm damage restoration, with free inspections."
+    },
+    {
+      "name": "Gutters",
+      "description": "Gutter installation and replacement."
+    },
+    {
+      "name": "Fences",
+      "description": "Fence installation and repair."
+    }
+  ],
+  "tagline": "Roofing & exteriors across Dallas-Fort Worth",
+  "website": "https://www.rangerroofingdfw.com/"
+}

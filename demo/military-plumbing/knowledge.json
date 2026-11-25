@@ -1,0 +1,107 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Military Plumbing. Facts harvested from the business's own website on 2026-11-04. Preview/demo use only - Vellops Demo Drop Partner Batch (Designer Pilots).",
+  "accent_color": "#1e3a2f",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (972) 635-7676 to schedule, or leave your details here and we'll follow up by email.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Military Plumbing",
+  "client_id": "military-plumbing",
+  "demo_chips": [
+    "Do you offer 24/7 emergency plumbing?",
+    "How do I get started?",
+    "What are your hours?"
+  ],
+  "contact": {
+    "email": "service@militaryplumbing.com",
+    "phone": "(972) 635-7676"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Military Plumbing at (972) 635-7676 or service@militaryplumbing.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Are you licensed and insured?",
+      "a": "Yes. Military Plumbing is fully licensed, bonded, and insured, with Texas Master Plumber License #40564.",
+      "keywords": [
+        "licensed",
+        "insured",
+        "license",
+        "master plumber"
+      ]
+    },
+    {
+      "q": "Do you offer emergency services?",
+      "a": "Yes. We offer 24/7/365 emergency plumbing throughout the DFW Metroplex with same-day availability.",
+      "keywords": [
+        "emergency",
+        "24/7",
+        "same-day",
+        "after hours"
+      ]
+    },
+    {
+      "q": "Do you offer military discounts?",
+      "a": "Yes. We offer 15% off for veterans and active duty, and 10% off for seniors, first responders, teachers, and nurses.",
+      "keywords": [
+        "military discount",
+        "veterans discount",
+        "discount",
+        "senior discount"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Military Plumbing assistant - happy to help with emergency plumbing, drain and sewer, water heater, or leak detection questions.",
+  "hours": "Available 24 hours a day, 7 days a week - call (972) 635-7676 any time for 24/7 emergency service.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Military Plumbing - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Military Plumbing! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Military Plumbing team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Military Plumbing team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (972) 635-7676.",
+  "location": "Quinlan, Texas - serving the Dallas-Fort Worth Metroplex and Northeast Texas, including Greenville, Rockwall, Plano, Garland, Royse City, Caddo Mills, Dallas and Lake Tawakoni",
+  "pricing": {
+    "summary": "Military Plumbing doesn't publish standard service prices online - all services are priced upfront with no hidden fees, and they price-match any licensed and comparable competitor. Published discounts include 15% off for veterans and active duty, and 10% off or up to $500 off for seniors, first responders, police, nurses and teachers. Call (972) 635-7676 to request a quote."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "24/7 emergency plumbing",
+      "description": "24/7 emergency plumbing response across the DFW Metroplex and Northeast Texas."
+    },
+    {
+      "name": "Residential plumbing",
+      "description": "Residential plumbing installation, repair and servicing for homes."
+    },
+    {
+      "name": "Commercial plumbing",
+      "description": "Commercial plumbing services for businesses and commercial properties."
+    },
+    {
+      "name": "Drain and sewer service",
+      "description": "Drain unblocking, drain cleaning and sewer services."
+    },
+    {
+      "name": "Water heater service",
+      "description": "Water heater servicing, repair and installation."
+    },
+    {
+      "name": "Leak detection",
+      "description": "Leak detection, including slab leak repair, using Leaktronics-certified technology."
+    },
+    {
+      "name": "Water quality and filtration",
+      "description": "Water quality services and water filtration systems, including HALO systems."
+    },
+    {
+      "name": "Mission Ready maintenance plan",
+      "description": "Proactive plumbing maintenance plan with priority scheduling, annual inspection, annual water heater flush, free drain cleaning, 15% off services and no service call fee on completed work."
+    }
+  ],
+  "tagline": "24/7 licensed plumbers across the DFW Metroplex & Northeast Texas",
+  "website": "https://www.militaryplumbing.com"
+}

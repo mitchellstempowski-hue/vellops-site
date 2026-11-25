@@ -1,0 +1,102 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Direct Comfort LLC. Facts harvested from the business's own website on 2026-10-26. Preview/demo use only - Vellops Demo Drop Batch 1.",
+  "accent_color": "#1d6fb8",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (402) 812-6187 to schedule service, or leave your details here and we'll follow up.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Direct Comfort LLC",
+  "client_id": "direct-comfort",
+  "demo_chips": ["How much does a service call cost?", "How do I get started?", "What are your hours?"],
+  "contact": {
+    "email": "directcomfortllc@directcomfortllc.net",
+    "phone": "(402) 812-6187"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can reach Direct Comfort at (402) 812-6187 or directcomfortllc@directcomfortllc.net, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Do you offer free estimates?",
+      "a": "Yes - we offer free estimates and a free, no-obligation quote for your HVAC needs.",
+      "keywords": [
+        "free estimate",
+        "free quote",
+        "quote"
+      ]
+    },
+    {
+      "q": "Are you licensed and insured?",
+      "a": "Yes - we're licensed, insured and bonded, NATE certified, and family-owned and operated with 20+ years of experience and over 2,500 systems installed.",
+      "keywords": [
+        "licensed",
+        "insured",
+        "bonded",
+        "nate",
+        "certified",
+        "experience"
+      ]
+    },
+    {
+      "q": "Do you do commercial work?",
+      "a": "Yes - we provide comprehensive heating and cooling solutions for both residential and commercial properties.",
+      "keywords": [
+        "commercial",
+        "business",
+        "office"
+      ]
+    },
+    {
+      "q": "Do you have any offers right now?",
+      "a": "Our website currently shows $50 off your first service call (limited-time offer).",
+      "keywords": [
+        "offer",
+        "coupon",
+        "special",
+        "deal",
+        "$50"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Direct Comfort assistant - happy to help with heating, cooling, maintenance, or emergency service questions.",
+  "hours": "Mon-Sat: 7:00 AM - 6:00 PM. Emergency service is available 24/7 - call (402) 812-6187 anytime.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Direct Comfort LLC - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Direct Comfort LLC! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Direct Comfort LLC team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Direct Comfort LLC team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us anytime at (402) 812-6187.",
+  "location": "Omaha, Nebraska - serving Omaha and surrounding areas",
+  "pricing": {
+    "summary": "Estimates are free, and our website currently shows $50 off your first service call. For repairs and installs you'll get a clear, no-obligation quote before any work starts - no high-pressure sales."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "AC installation & replacement",
+      "description": "New air conditioning systems for residential and commercial properties."
+    },
+    {
+      "name": "Heating & cooling repair",
+      "description": "Repairs for furnaces and AC systems, from simple check-ups to complex issues."
+    },
+    {
+      "name": "HVAC maintenance",
+      "description": "Annual check-ups and maintenance to keep your system running year-round."
+    },
+    {
+      "name": "24/7 emergency HVAC service",
+      "description": "Emergency team available around the clock when your heating or cooling fails."
+    },
+    {
+      "name": "New system installation",
+      "description": "New heating and cooling installations for homes and businesses."
+    }
+  ],
+  "tagline": "Expert HVAC services in Omaha, NE",
+  "website": "https://directcomfortllc.net/"
+}

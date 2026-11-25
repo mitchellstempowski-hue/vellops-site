@@ -1,0 +1,107 @@
+{
+  "_comment": "Knowledge for Budget Roofing Service - built from budgetroofingservice.com on 2026-11-08 for the JABstract Web Design partner demo. Pricing is not published on the site; inspections and estimates are free.",
+  "accent_color": "#7a1f1f",
+  "booking": {
+    "action": "lead",
+    "checkout_url": null,
+    "instructions": "Book a free roof inspection right here in chat (leave your name, email and a note about your roof), or call (863) 967-6675.",
+    "link": null
+  },
+  "business_name": "Budget Roofing Service",
+  "client_id": "budget-roofing-service",
+  "demo_chips": [
+    "Are your estimates really free?",
+    "Can you help with an insurance claim?",
+    "What are your hours?"
+  ],
+  "contact": {
+    "email": "info@budgetroofingservice.com",
+    "phone": "(863) 967-6675"
+  },
+  "fallback": "Great question - I don't want to guess on that one. You can call Budget Roofing Service at (863) 967-6675, email info@budgetroofingservice.com, or leave your name and email here and the team will follow up.",
+  "faqs": [
+    {
+      "q": "Are your estimates really free?",
+      "a": "Yes - inspections and estimates are free, with no obligation and no pressure. You get photos of what they find and a written, itemized scope before you sign anything.",
+      "keywords": [
+        "free",
+        "estimate",
+        "inspection",
+        "quote",
+        "cost"
+      ]
+    },
+    {
+      "q": "How long has Budget Roofing been in business?",
+      "a": "Since 1952 - Budget Roofing Service is family owned and has been run by three generations of the Williams family in Winter Haven, Florida. Their own crews do the work; they don't use subcontractors.",
+      "keywords": [
+        "since",
+        "how long",
+        "family",
+        "history",
+        "1952",
+        "subcontractors"
+      ]
+    },
+    {
+      "q": "Can you help with an insurance claim?",
+      "a": "Yes - the team documents your roof's condition, prepares a detailed itemized estimate, and works with you and your adjuster through the process. They never ask you to sign over your benefits, and your deductible stays yours to pay, as the law requires.",
+      "keywords": [
+        "insurance",
+        "claim",
+        "storm",
+        "adjuster",
+        "damage"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Budget Roofing Service assistant - happy to help with roof replacements, repairs, inspections or insurance claim questions.",
+  "hours": "Budget Roofing Service is open Monday to Friday, 7:30am to 5:00pm, and closed Saturday and Sunday. You can reach the team at (863) 967-6675 or info@budgetroofingservice.com.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Budget Roofing Service, a family-owned roofing company in Winter Haven, Florida, run by the Williams family since 1952. I can answer questions and take your details so the team can follow up.",
+  "handoff_ask": "Would you like me to pass your details to the Budget Roofing Service team so they can follow up by email?",
+  "handoff_confirm": "You're all set - the Budget Roofing Service team has your details and will follow up by email shortly.",
+  "lead_confirm": "Thanks, {name} - I've passed your details to the Budget Roofing Service team. If it's urgent, you can also call (863) 967-6675.",
+  "lead_prompt": "Could I grab your name, the best email, and a quick note about what you need? I'll pass it to the team right away.",
+  "location": "Winter Haven, Florida - serving Central Florida including Polk, Lake, Osceola, Orange, Hardee, Hillsborough, Pasco and Pinellas counties",
+  "pricing": {
+    "summary": "Pricing isn't published on the Budget Roofing Service website - roof inspections and estimates are free, and you get an itemized written estimate before you sign anything."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Roof replacement",
+      "description": "Complete tear-offs and code-compliant new roof systems in shingle, tile, metal or flat roofing, installed by Budget Roofing's own crews."
+    },
+    {
+      "name": "Roof repair",
+      "description": "Leaks, missing shingles, storm damage and flashing problems fixed properly, with honest answers on whether a repair or a replacement makes sense."
+    },
+    {
+      "name": "Residential roofing",
+      "description": "Roofing for single-family homes, townhomes and manufactured homes across Central Florida."
+    },
+    {
+      "name": "Commercial roofing",
+      "description": "Roofing for offices, retail, warehouses and light industrial buildings."
+    },
+    {
+      "name": "Insurance claim assistance",
+      "description": "Budget documents your roof's condition, provides a detailed itemized estimate, and works with you and your adjuster through the claim."
+    },
+    {
+      "name": "Free roof inspections",
+      "description": "A photo-backed inspection and a written scope of work - free, with no obligation."
+    },
+    {
+      "name": "Gutters, soffit, fascia and siding",
+      "description": "Gutter installation and repair, plus soffit, fascia, siding and wood-rot repair."
+    }
+  ],
+  "tagline": "Family owned since 1952",
+  "website": "https://budgetroofingservice.com/"
+}

@@ -1,0 +1,126 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for Dedicated Electrical Services Inc.. Facts harvested from the business's own website on 2026-10-26. Preview/demo use only - Vellops Demo Drop Batch 1.",
+  "accent_color": "#b45309",
+  "booking": {
+    "action": "lead",
+    "instructions": "Call (405) 816-3050 or request an electrical assessment on our website - or leave your details here and we'll follow up.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "Dedicated Electrical Services Inc.",
+  "client_id": "dedicated-electrical",
+  "demo_chips": ["How much does a panel upgrade cost?", "How do I schedule an electrical assessment?", "What are your hours?"],
+  "contact": {
+    "email": "Dedicatedelectric043@gmail.com",
+    "phone": "(405) 816-3050"
+  },
+  "fallback": "Great question - I don't want to guess on that one. Call us at (405) 816-3050 or email Dedicatedelectric043@gmail.com, or leave your name and email here and we'll follow up.",
+  "faqs": [
+    {
+      "q": "Are you licensed and insured?",
+      "a": "Yes - we're a licensed Oklahoma electrical contractor (License #52041), insured and bonded, and BBB-accredited with a 4.9-star rating.",
+      "keywords": [
+        "license",
+        "licensed",
+        "insured",
+        "bonded",
+        "bbb"
+      ]
+    },
+    {
+      "q": "Do you install EV chargers?",
+      "a": "Yes - home EV charger installation, including Level 2 chargers, for fast, convenient charging right in your garage.",
+      "keywords": [
+        "ev charger",
+        "electric vehicle",
+        "level 2",
+        "tesla"
+      ]
+    },
+    {
+      "q": "Do you install generators?",
+      "a": "Yes - standby generator installation to keep your home safely powered through Oklahoma storms and outages.",
+      "keywords": [
+        "generator",
+        "standby",
+        "outage"
+      ]
+    },
+    {
+      "q": "Do you do commercial work?",
+      "a": "Yes - we provide complete residential, commercial, and light industrial electrical work.",
+      "keywords": [
+        "commercial",
+        "industrial",
+        "business"
+      ]
+    },
+    {
+      "q": "Can you fix flickering lights or a tripped breaker that keeps tripping?",
+      "a": "Yes - whether it's a tripped breaker, flickering lights, an outdated panel, or not enough outlets, our licensed electricians diagnose the real problem and fix it safely.",
+      "keywords": [
+        "flickering",
+        "breaker",
+        "tripped",
+        "outlets"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the Dedicated Electrical assistant - ask me about panels, EV chargers, generators, lighting, or booking an assessment.",
+  "hours": "Monday-Saturday, 6:00 AM - 8:00 PM. Call (405) 816-3050.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for Dedicated Electrical Services Inc. - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at Dedicated Electrical Services Inc.! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the Dedicated Electrical Services Inc. team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the Dedicated Electrical Services Inc. team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (405) 816-3050.",
+  "location": "Moore, Oklahoma - 2813 Regency Boulevard - serving Oklahoma City, Moore, Norman, Newcastle, Cleveland County, Oklahoma County and surrounding communities",
+  "pricing": {
+    "summary": "Estimates on your project are free, and our pricing is transparent and upfront with no hidden fees - you'll get your quote once we've assessed the job."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Panel upgrades",
+      "description": "Modern electrical panel upgrades and replacements to safely power your home."
+    },
+    {
+      "name": "Outlet & switch installation",
+      "description": "New outlets and switches, including GFCI and dedicated circuits."
+    },
+    {
+      "name": "Lighting installation",
+      "description": "Interior, exterior, and landscape lighting installation."
+    },
+    {
+      "name": "Ceiling fan installation",
+      "description": "Professional ceiling fan installation and replacement."
+    },
+    {
+      "name": "Generator installation",
+      "description": "Standby generator installation to keep your home powered through Oklahoma storms and outages."
+    },
+    {
+      "name": "EV charger installation",
+      "description": "Home EV charger installation, including Level 2 chargers."
+    },
+    {
+      "name": "Rewiring & whole-home rewires",
+      "description": "Targeted rewiring and complete whole-home rewires to replace old, unsafe wiring and bring your system up to modern code."
+    },
+    {
+      "name": "Surge protection & smoke detectors",
+      "description": "Whole-house surge protection and hardwired smoke detectors."
+    },
+    {
+      "name": "Pool & hot tub electrical",
+      "description": "Safe, code-compliant wiring and dedicated circuits for pools, spas, and hot tubs."
+    }
+  ],
+  "tagline": "Licensed electrician in Moore & the Oklahoma City metro",
+  "website": "https://www.dedicatedelectricokc.com/"
+}

@@ -1,0 +1,113 @@
+{
+  "_comment": "Demo Drop knowledge file (mode b: client) for NUGS HVAC. Facts harvested from the business's own website on 2026-10-26. Preview/demo use only - Vellops Demo Drop Batch 1.",
+  "accent_color": "#205d8a",
+  "booking": {
+    "action": "lead",
+    "instructions": "Fastest answer is always a call: (402) 580-6289. You can also leave your details here and we'll get back fast.",
+    "link": null,
+    "checkout_url": null
+  },
+  "business_name": "NUGS HVAC",
+  "client_id": "nugs-hvac",
+  "demo_chips": ["How much do you charge for a repair?", "How do I get started?", "What are your hours?"],
+  "contact": {
+    "email": "nugshvac@outlook.com",
+    "phone": "(402) 580-6289"
+  },
+  "fallback": "Great question - I don't want to guess on that one. Call us at (402) 580-6289 and a real person will help, or leave your name and email here and we'll follow up fast.",
+  "faqs": [
+    {
+      "q": "Do you work on boilers?",
+      "a": "Yes - boilers are our specialty. Hydronic and steam, residential and commercial, repair through full replacement, including older and historic buildings.",
+      "keywords": [
+        "boiler",
+        "steam",
+        "hydronic",
+        "radiator"
+      ]
+    },
+    {
+      "q": "Should I repair or replace my system?",
+      "a": "Our rule of thumb: if the repair is more than a third of the replacement cost and the unit is past its prime, replacement usually wins. We lay out both numbers and let you decide.",
+      "keywords": [
+        "repair or replace",
+        "replace my",
+        "old system",
+        "worth fixing"
+      ]
+    },
+    {
+      "q": "Do you install heat pumps or mini-splits?",
+      "a": "Yes - heat pumps and ductless mini-splits are a strong fit for additions, older homes without ductwork, and rooms that never get comfortable. We size it right for the space.",
+      "keywords": [
+        "heat pump",
+        "mini-split",
+        "mini split",
+        "ductless"
+      ]
+    },
+    {
+      "q": "Are you licensed and insured?",
+      "a": "Yes - licensed and insured in both Nebraska and Iowa. We carry liability and workers' comp, and we'll show proof on request.",
+      "keywords": [
+        "licensed",
+        "insured",
+        "nebraska",
+        "iowa",
+        "proof"
+      ]
+    },
+    {
+      "q": "Do you offer tune-ups or maintenance plans?",
+      "a": "Yes - seasonal tune-ups, plus planned maintenance agreements that catch small problems before they become 11pm emergencies and keep your warranty intact.",
+      "keywords": [
+        "tune-up",
+        "tune up",
+        "maintenance plan",
+        "agreement",
+        "contract"
+      ]
+    }
+  ],
+  "greeting": "Hi there! I'm the NUGS HVAC assistant - ask me about heating, cooling, boilers, or our 24/7 emergency service.",
+  "hours": "We're here 24/7 for emergencies - call (402) 580-6289 any time and a real person will route a tech. Same-day service in most cases.",
+  "handoff_mode": "owner_text",
+  "identity_reply": "I'm the AI assistant for NUGS HVAC - I'm an AI, not a person, and I'm happy to help with questions about our services. (This chat is a preview demo built by Vellops.)",
+  "handoff_ask": "Of course - happy to pass this to the team at NUGS HVAC! What's the best email address for them to reach you at?",
+  "handoff_confirm": "Thank you so much! I've passed this to the NUGS HVAC team with your email - they'll email you shortly.",
+  "lead_confirm": "Thank you so much, {name}! We've got your info - the NUGS HVAC team will follow up by email very soon. Anything else I can help with?",
+  "lead_prompt": "I'd love to help with that! Could I grab your name, the best email, and a quick note about what you need? Or call us at (402) 580-6289 - a real person will route a tech.",
+  "location": "Omaha, Nebraska - serving the Omaha metro and southwest Iowa",
+  "pricing": {
+    "summary": "We price up front: you get the price before we send anyone out, and the diagnostic fee is credited toward the repair if you move forward. We don't publish flat prices online because every job is different - no surprises on the invoice."
+  },
+  "quick_replies": [
+    "What services do you offer?",
+    "What are your hours?",
+    "How do I get started?"
+  ],
+  "services": [
+    {
+      "name": "Residential heating & cooling",
+      "description": "Furnace and AC repair, new installs, heat pumps, mini-splits, and seasonal maintenance."
+    },
+    {
+      "name": "Boilers & hydronics",
+      "description": "Hydronic and steam boiler repair, service, and full replacement - including older and historic buildings. The work most shops turn away."
+    },
+    {
+      "name": "Commercial HVAC & mechanical",
+      "description": "Rooftop units, chillers, boilers, controls/BAS, refrigeration, and make-up air for commercial buildings."
+    },
+    {
+      "name": "Planned maintenance agreements",
+      "description": "Tiered programs - Essential (planned maintenance), Priority (PM + priority response), and Total Care (full coverage)."
+    },
+    {
+      "name": "24/7 emergency service",
+      "description": "A real person answers and routes a tech - day, night, weekend, holiday. Not a voicemail."
+    }
+  ],
+  "tagline": "Heating, cooling, boilers & commercial HVAC - Omaha & SW Iowa",
+  "website": "https://nugshvac.com/"
+}
