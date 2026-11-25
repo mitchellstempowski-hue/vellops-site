@@ -220,10 +220,14 @@
     trackFired[event] = true;
     try {
       var body = JSON.stringify({ demo: cfg.client, event: event, sid: trackSid });
-      if (navigator.sendBeacon) {
-        navigator.sendBeacon(trackUrl(), new Blob([body], { type: 'application/json' }));
-      } else if (window.fetch) {
+      // Fetch first: a cross-origin sendBeacon with a JSON-typed Blob does not
+      // survive (no working preflight path) — the 2026-11-25 post-migration QA
+      // browser logged zero events while fetch-based calls worked. Fetch with
+      // keepalive performs the CORS preflight correctly against the API host.
+      if (window.fetch) {
         window.fetch(trackUrl(), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: body, keepalive: true }).catch(function () {});
+      } else if (navigator.sendBeacon) {
+        navigator.sendBeacon(trackUrl(), new Blob([body], { type: 'application/json' }));
       }
     } catch (e) {}
   }
