@@ -258,7 +258,7 @@ window.VELLOPS_CHAT = { client: 'suncraft-roofing', mock: true, knowledge: {
 };
   function boot(k){ if (window.VellopsWidget) { window.VellopsWidget.mount(Object.assign({}, window.VELLOPS_CHAT, { knowledge: k || inlineKnowledge })); } }
   var s = document.createElement('script');
-  s.src = '../assets/widget.js';
+  s.src = '../assets/widget.js?v=20261125-2';
   s.onload = function(){
     fetch('knowledge.json', { cache: 'no-store' })
       .then(function(r){ return r.ok ? r.json() : inlineKnowledge; })
