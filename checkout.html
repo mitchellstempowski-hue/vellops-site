@@ -248,10 +248,17 @@ footer a{color:var(--muted)}
   var VOICE_TRIAL_DESC = 'We set up your AI answering line — forward your existing number to it, or take a new local number from us. $0 today; your card is saved and the first monthly charge lands on day 8, only if you keep it. Cancel by email before then and you never pay a cent.';
   var VOICE_GUARANTEE = '<strong>Our guarantee:</strong> live within 7 days of us receiving the access we need — and if a call to your business goes unanswered because the service failed, that month is free. No form, no hassle.';
   var VOICE_TERMS = 'I agree to the <a href="terms-of-service.html" target="_blank" rel="noopener">Vellops Terms of Service</a>, including the <strong>guarantees</strong>: if my Voice answering service is not live within 7 days of Vellops receiving the access it needs, or a call to my business goes unanswered because the service failed, that month is free. There is no setup fee. Outside those guarantees, a monthly charge is refundable if you ask within 3 days of that charge.';
+  // Referred chatbot trials run 21 days (server enforces the same): the copy
+  // must say 21/day-22 whenever a referral code is carried, never 14/day-15.
+  var REF_SUB = 'Start with a free 21-day live trial — $0 today, card required, and your first charge lands on day 22 only if you keep it. Or buy now and skip the trial. Either way: no setup fee, no contract, and your chatbot is live on your website in about 7 days — you approve every word it says before it goes live.';
+  var REF_TRIAL_DESC = 'We build and install your chatbot on your real website. $0 today; your card is saved and the first monthly charge lands on day 22, only if you keep it. Cancel by reply before then and you never pay a cent.';
   function render(){
     var planKey = current();
     var p = plans[planKey];
     var isVoice = planKey === 'voice';
+    var refTrial = !isVoice && !!savedRef;
+    var trialDays = refTrial ? 21 : 14;
+    var firstChargeDay = refTrial ? 22 : 15;
     var trial = startMode() === 'trial';
     var founding = !!(foundingCheck && foundingCheck.checked);
     var refDisc = (!trial && savedRef && !founding) ? 100 : 0;
@@ -285,7 +292,7 @@ footer a{color:var(--muted)}
     document.getElementById('start-buy-card').classList.toggle('sel', !trial);
     document.getElementById('start-buy-amt').textContent = p.monthly;
     document.getElementById('sum-plan-name').textContent = trial
-      ? (isVoice ? 'Voice — 7-day free pilot' : (p.name + ' — 14-day free trial'))
+      ? (isVoice ? 'Voice — 7-day free pilot' : (p.name + ' — ' + trialDays + '-day free trial'))
       : (p.name + ' — monthly');
     document.getElementById('sum-plan-amt').textContent = trial ? '$0.00' : ('$' + mo.toFixed(2));
     document.getElementById('sum-ref-banner').style.display = (!trial && savedRef && !founding) ? 'flex' : 'none';
@@ -293,9 +300,9 @@ footer a{color:var(--muted)}
     // Voice selection swaps the page copy to the Voice product; any
     // chatbot plan restores the original wording exactly.
     document.getElementById('page-h1').textContent = isVoice ? 'Get Vellops Voice' : 'Get my AI chatbot';
-    document.getElementById('page-sub').textContent = isVoice ? VOICE_SUB : CHAT_SUB;
-    document.getElementById('trial-title').textContent = isVoice ? 'Free 7-day pilot' : 'Free 14-day live trial';
-    document.getElementById('trial-desc').textContent = isVoice ? VOICE_TRIAL_DESC : CHAT_TRIAL_DESC;
+    document.getElementById('page-sub').textContent = isVoice ? VOICE_SUB : (refTrial ? REF_SUB : CHAT_SUB);
+    document.getElementById('trial-title').textContent = isVoice ? 'Free 7-day pilot' : (refTrial ? 'Free 21-day live trial' : 'Free 14-day live trial');
+    document.getElementById('trial-desc').textContent = isVoice ? VOICE_TRIAL_DESC : (refTrial ? REF_TRIAL_DESC : CHAT_TRIAL_DESC);
     document.getElementById('guarantee-box').innerHTML = isVoice ? VOICE_GUARANTEE : CHAT_GUARANTEE;
     document.getElementById('terms-text').innerHTML = isVoice ? VOICE_TERMS : CHAT_TERMS;
     var annualNote = document.getElementById('annual-note');
@@ -306,8 +313,8 @@ footer a{color:var(--muted)}
         note = 'Due today is $0. Your card is saved, and your first charge of $247 lands on day 8 — only if you keep Voice. Cancel by email before then and you never pay a cent. No setup fee, no contract.';
         if (founding) note = 'Due today is $0. Founding-3 claimed: your first 3 monthly charges are $147 — the first lands on day 8, only if you keep Voice — then $247/month at standard pricing. Cancel by email anytime.';
       } else {
-        note = 'Due today is $0. Your card is saved, and your first charge of $' + (p.monthly + addon) + ' lands on day 15 — only if you keep the chatbot. Cancel by reply before then and you never pay a cent. No setup fee, no contract.';
-        if (founding) note = 'Due today is $0. Founding-3 claimed: your first 3 monthly charges are $' + (197 + addon) + ' — the first lands on day 15, only if you keep the chatbot — then $' + (p.monthly + addon) + '/month at standard pricing. Cancel by reply anytime.';
+        note = 'Due today is $0. Your card is saved, and your first charge of $' + (p.monthly + addon) + ' lands on day ' + firstChargeDay + ' — only if you keep the chatbot. Cancel by reply before then and you never pay a cent. No setup fee, no contract.';
+        if (founding) note = 'Due today is $0. Founding-3 claimed: your first 3 monthly charges are $' + (197 + addon) + ' — the first lands on day ' + firstChargeDay + ', only if you keep the chatbot — then $' + (p.monthly + addon) + '/month at standard pricing. Cancel by reply anytime.';
       }
     } else {
       if (isVoice) {
