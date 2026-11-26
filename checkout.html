@@ -310,10 +310,10 @@ footer a{color:var(--muted)}
     var note;
     if (trial) {
       if (isVoice) {
-        note = 'Due today is $0. Your card is saved, and your first charge of $247 lands on day 8 — only if you keep Voice. Cancel by email before then and you never pay a cent. No setup fee, no contract.';
+        note = 'Due today is $0. Your card is saved, and your first charge of $' + (247 - (savedRef ? 100 : 0)) + ' lands on day 8 — only if you keep Voice. Cancel by email before then and you never pay a cent. No setup fee, no contract.';
         if (founding) note = 'Due today is $0. Founding-3 claimed: your first 3 monthly charges are $147 — the first lands on day 8, only if you keep Voice — then $247/month at standard pricing. Cancel by email anytime.';
       } else {
-        note = 'Due today is $0. Your card is saved, and your first charge of $' + (p.monthly + addon) + ' lands on day ' + firstChargeDay + ' — only if you keep the chatbot. Cancel by reply before then and you never pay a cent. No setup fee, no contract.';
+        note = 'Due today is $0. Your card is saved, and your first charge of $' + (p.monthly + addon - (savedRef ? 100 : 0)) + ' lands on day ' + firstChargeDay + ' — only if you keep the chatbot. Cancel by reply before then and you never pay a cent. No setup fee, no contract.';
         if (founding) note = 'Due today is $0. Founding-3 claimed: your first 3 monthly charges are $' + (197 + addon) + ' — the first lands on day ' + firstChargeDay + ', only if you keep the chatbot — then $' + (p.monthly + addon) + '/month at standard pricing. Cancel by reply anytime.';
       }
     } else {

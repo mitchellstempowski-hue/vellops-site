@@ -341,8 +341,29 @@
     if (has(['discount', 'cheaper', '% off'])) {
       if (k.pricing && k.pricing.summary) return { ok: true, reply: k.pricing.summary + ' Happy to walk you through it — would you like a free quick demo first?' };
     }
+    // FAQ scorer (shared): best-matching FAQ answer for a message, or null.
+    function faqAnswer(msg) {
+      var words = msg.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+      var best = null, bestScore = 0;
+      (k.faqs || []).forEach(function (f) {
+        var hay = ((f.q || '') + ' ' + (f.keywords || []).join(' ')).toLowerCase();
+        var score = 0;
+        words.forEach(function (w) { if (w.length > 2 && hay.indexOf(w) !== -1) score++; });
+        (f.keywords || []).forEach(function (kw) { if (msg.toLowerCase().indexOf(kw.toLowerCase()) !== -1) score += 2; });
+        if (score > bestScore) { bestScore = score; best = f.a; }
+      });
+      return best ? { a: best, score: bestScore } : null;
+    }
     // 4) Booking / buying intent.
     if (has(['book', 'appointment', 'schedule', 'get started', 'sign up', 'sign me up', 'free inspection', 'free estimate', 'free consultation', 'instant measurement'])) {
+      // Informational free-X questions ("Do you offer free estimates?",
+      // "Can I get a free estimate?") with a direct FAQ answer get the
+      // answer first — it carries the contact route anyway. Explicit
+      // booking verbs ("book a free estimate") still go to booking.
+      if (has(['free estimate', 'free inspection', 'free consultation']) && !has(['book', 'schedule', 'appointment'])) {
+        var fa = faqAnswer(msg);
+        if (fa && fa.score >= 4) return { ok: true, reply: fa.a };
+      }
       if (k.booking && k.booking.link) return { ok: true, reply: (k.booking.instructions || 'You can book right here:') + ' ' + k.booking.link, ctas: [{ label: 'Book now →', url: k.booking.link }] };
       return { ok: true, show_lead_form: true, reply: k.lead_prompt || "I'd love to help with that! Could I grab your name, the best email to reach you, and a quick note about what you need?" };
     }
@@ -359,16 +380,8 @@
       return { ok: true, show_lead_form: true, reply: ((k.setup && k.setup.demo_offer) || 'We offer a free quick demo so you can see it work before you decide.') + ' Just share your name and the best way to reach you and we\'ll set it up!' };
     }
     if (/^\s*(hi|hey|hello)\b/i.test(msg)) return { ok: true, reply: 'Hello! Great to meet you. I can help with questions about ' + biz + ', pricing, or getting started — what are you looking for?' };
-    var words = msg.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
-    var best = null, bestScore = 0;
-    (k.faqs || []).forEach(function (f) {
-      var hay = ((f.q || '') + ' ' + (f.keywords || []).join(' ')).toLowerCase();
-      var score = 0;
-      words.forEach(function (w) { if (w.length > 2 && hay.indexOf(w) !== -1) score++; });
-      (f.keywords || []).forEach(function (kw) { if (msg.toLowerCase().indexOf(kw.toLowerCase()) !== -1) score += 2; });
-      if (score > bestScore) { bestScore = score; best = f.a; }
-    });
-    if (best && bestScore >= 2) return { ok: true, reply: best };
+    var fb = faqAnswer(msg);
+    if (fb && fb.score >= 2) return { ok: true, reply: fb.a };
     return { ok: true, show_lead_form: true, reply: k.fallback || 'Thanks for reaching out! Leave your name and the best way to reach you and we\'ll follow up by email.' };
   }
 
