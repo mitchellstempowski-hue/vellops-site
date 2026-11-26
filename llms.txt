@@ -1,26 +1,34 @@
 # Vellops
 
-> Vellops builds custom AI chatbots for local business websites. The chatbot is trained on the business's own services, prices, and FAQs; it answers website visitors instantly day and night, handles customer service and sales questions, captures leads, and books appointments. Everything else runs by email: lead alerts and a Monday report (chats handled, leads captured, booked) to the owner. Vellops is a website product only — it does not call or text anyone's phone.
+> Vellops builds custom AI chatbots for local business websites, and offers Vellops Voice, an AI phone-answering service. The chatbot is trained on the business's own services, prices, and FAQs; it answers website visitors instantly day and night, handles customer service and sales questions, captures leads, and books appointments. Voice answers inbound phone calls day and night, takes messages, qualifies callers, books by the business's rules, and emails a summary of every call. Lead alerts, call summaries, and a Monday report (chats handled, leads captured, booked) are delivered to the owner by email. Neither product cold-calls or texts customers; Voice answers inbound calls only, and callers are told they are speaking with an AI assistant.
 
 ## About
+
 - Business: Vellops, operated by MS ECOM LLC (Troy, Michigan), serving local businesses across the United States.
 - Contact: mitchell@msecomllc.com · +1 (586) 203-9434
 - Website: https://vellops.com/
 
 ## Pricing (published, no setup fee)
+
 - Starter: $397/month — chatbot answers visitors, captures leads, email lead alerts.
 - Standard: $497/month (recommended) — adds calendar booking with customer confirmations.
 - Premium: $597/month — everything in Standard, priority support and monthly optimization.
+- Vellops Voice: $247/month flat — AI phone answering; or +$100/month added to any chatbot plan.
 - Annual billing: 2 months free ($3,970 / $4,970 / $5,970 per year).
-- No setup fee. No long-term contract. Cancel by reply.
-- Free 14-day live trial on the business's own website, no card required. If the chatbot books nothing in the first 30 days of a paid plan, that period is refunded in full. A 60-day performance guarantee also applies (see Terms).
+- No setup fee. No long-term contract. Cancel by reply (chatbot) or by email (Voice).
+- Free 14-day live trial of the chatbot on the business's own website — $0 due today, a card is required to start, nothing is charged until day 15. Voice starts with a 7-day free pilot on the same terms.
+- Guarantee: the chatbot is live within 7 days of Vellops receiving the access it needs and capturing every after-hours enquiry, or the month is free; if it books nothing in the first 30 days of a paid plan, that month is refunded in full.
+- Founding-3: the first 3 customers pay $197/month for their first 3 months (Voice: $147/month), then standard pricing, in exchange for an honest testimonial and a published case study at about day 30.
 
 ## Also offered
+
 - AI Visibility Audit: a one-time $199 audit of how a business appears in AI search answers (Google AI Overviews, Gemini), with a written report in 48 hours; the $199 is credited in full toward a Visibility Fix plan ($299/month, or $499/month with content) started within 14 days.
-- Referral program: a referred business gets $100 off its first month; the referrer gets one month free when the referral becomes a paying customer.
+- Referral program: a referred business gets $100 off its first month and a 21-day free trial instead of 14; the referrer gets one month free when the referral becomes a paying customer.
 
 ## Key pages
+
 - Home: https://vellops.com/
+- Vellops Voice (AI phone answering): https://vellops.com/voice.html
 - Complete guide — AI chatbot for local businesses: https://vellops.com/ai-chatbot-for-local-businesses.html
 - For plumbing companies: https://vellops.com/for/plumbing/
 - For HVAC companies: https://vellops.com/for/hvac/

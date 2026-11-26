@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /demo/
-Disallow: /tiktok-test/
 
 Sitemap: https://vellops.com/sitemap.xml
